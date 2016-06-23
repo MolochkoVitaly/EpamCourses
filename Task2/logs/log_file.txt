@@ -1,0 +1,190 @@
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.service.ShopService - Shop opened, cash boxes begin their work
+16.03.2016 16:07:05 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.entity.CashBox - Client № 1 came in queue in cash box № 1
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:05 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 1 is served by cash box № 1
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.entity.CashBox - Client № 2 came in queue in cash box № 2
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:05 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 2 is served by cash box № 2
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.entity.CashBox - Client № 3 came in queue in cash box № 1
+16.03.2016 16:07:05 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 4 came in queue in cash box № 1
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 5 came in queue in cash box № 2
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 6 came in queue in cash box № 1
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 7 came in queue in cash box № 2
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 8 came in queue in cash box № 2
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 5 is served by cash box № 2
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 9 came in queue in cash box № 2
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 3 is served by cash box № 1
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.entity.CashBox - Client № 10 came in queue in cash box № 1
+16.03.2016 16:07:06 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:07:06 [Thread-11] INFO  by.bsu.office.entity.Client - Client № 10 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:07:07 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 4 is served by cash box № 1
+16.03.2016 16:07:07 [main] INFO  by.bsu.office.entity.CashBox - Client № 11 came in queue in cash box № 1
+16.03.2016 16:07:07 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 7 is served by cash box № 2
+16.03.2016 16:07:07 [Thread-12] INFO  by.bsu.office.entity.Client - Client № 11 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:07:07 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 6 is served by cash box № 1
+16.03.2016 16:07:07 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 8 is served by cash box № 2
+16.03.2016 16:07:08 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 10 is served by cash box № 1
+16.03.2016 16:07:08 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 9 is served by cash box № 2
+16.03.2016 16:07:08 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 11 is served by cash box № 1
+16.03.2016 16:07:08 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:07:09 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Shop opened, cash boxes begin their work
+16.03.2016 16:08:33 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 1 came in queue in cash box № 1
+16.03.2016 16:08:33 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:08:33 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 1 is served by cash box № 1
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 2 came in queue in cash box № 2
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 3 came in queue in cash box № 2
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 2 is served by cash box № 2
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 4 came in queue in cash box № 1
+16.03.2016 16:08:33 [Thread-5] INFO  by.bsu.office.entity.Client - Client № 4 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 5 came in queue in cash box № 2
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 6 came in queue in cash box № 2
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 7 came in queue in cash box № 1
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.entity.CashBox - Client № 8 came in queue in cash box № 1
+16.03.2016 16:08:33 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:34 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 3 is served by cash box № 2
+16.03.2016 16:08:34 [main] INFO  by.bsu.office.entity.CashBox - Client № 9 came in queue in cash box № 2
+16.03.2016 16:08:34 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:34 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 4 is served by cash box № 1
+16.03.2016 16:08:34 [main] INFO  by.bsu.office.entity.CashBox - Client № 10 came in queue in cash box № 1
+16.03.2016 16:08:34 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 5 is served by cash box № 2
+16.03.2016 16:08:35 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 7 is served by cash box № 1
+16.03.2016 16:08:35 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 6 is served by cash box № 2
+16.03.2016 16:08:35 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 8 is served by cash box № 1
+16.03.2016 16:08:35 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 9 is served by cash box № 2
+16.03.2016 16:08:36 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 10 is served by cash box № 1
+16.03.2016 16:08:36 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:08:36 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.service.ShopService - Shop opened, cash boxes begin their work
+16.03.2016 16:08:41 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:41 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.entity.CashBox - Client № 1 came in queue in cash box № 1
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:41 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 1 is served by cash box № 1
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.entity.CashBox - Client № 2 came in queue in cash box № 2
+16.03.2016 16:08:41 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:41 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 2 is served by cash box № 2
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 3 came in queue in cash box № 1
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [Thread-4] INFO  by.bsu.office.entity.Client - Client № 3 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 4 came in queue in cash box № 2
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [Thread-5] INFO  by.bsu.office.entity.Client - Client № 4 wants to transfer from cash box № 2 to another queue
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 5 came in queue in cash box № 2
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 6 came in queue in cash box № 1
+16.03.2016 16:08:42 [Thread-7] INFO  by.bsu.office.entity.Client - Client № 6 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 7 came in queue in cash box № 2
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 8 came in queue in cash box № 1
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 4 is served by cash box № 2
+16.03.2016 16:08:42 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 3 is served by cash box № 1
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 9 came in queue in cash box № 2
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.entity.CashBox - Client № 10 came in queue in cash box № 1
+16.03.2016 16:08:42 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:43 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 5 is served by cash box № 2
+16.03.2016 16:08:43 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 6 is served by cash box № 1
+16.03.2016 16:08:43 [main] INFO  by.bsu.office.entity.CashBox - Client № 11 came in queue in cash box № 2
+16.03.2016 16:08:43 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:08:43 [main] INFO  by.bsu.office.entity.CashBox - Client № 12 came in queue in cash box № 1
+16.03.2016 16:08:43 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 8 is served by cash box № 1
+16.03.2016 16:08:43 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 7 is served by cash box № 2
+16.03.2016 16:08:44 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 9 is served by cash box № 2
+16.03.2016 16:08:44 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 10 is served by cash box № 1
+16.03.2016 16:08:44 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 11 is served by cash box № 2
+16.03.2016 16:08:44 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 12 is served by cash box № 1
+16.03.2016 16:08:45 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:08:45 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:11:18 [main] INFO  by.bsu.office.service.ShopService - Shop opened, cash boxes begin their work
+16.03.2016 16:11:18 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:11:18 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:18 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:11:18 [main] INFO  by.bsu.office.entity.CashBox - Client № 1 came in queue in cash box № 1
+16.03.2016 16:11:18 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 1 is served by cash box № 1
+16.03.2016 16:11:19 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:11:28 [main] INFO  by.bsu.office.service.ShopService - Shop opened, cash boxes begin their work
+16.03.2016 16:11:28 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
+16.03.2016 16:11:28 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 1 came in queue in cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 1 is served by cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 2 came in queue in cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 3 came in queue in cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 2 is served by cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 4 came in queue in cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [Thread-5] INFO  by.bsu.office.entity.Client - Client № 4 wants to transfer from cash box № 2 to another queue
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 5 came in queue in cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 6 came in queue in cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 7 came in queue in cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 8 came in queue in cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [Thread-8] INFO  by.bsu.office.entity.Client - Client № 7 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:11:29 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 4 is served by cash box № 2
+16.03.2016 16:11:29 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 3 is served by cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 9 came in queue in cash box № 2
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.entity.CashBox - Client № 10 came in queue in cash box № 1
+16.03.2016 16:11:29 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:29 [Thread-11] INFO  by.bsu.office.entity.Client - Client № 10 wants to transfer from cash box № 1 to another queue
+16.03.2016 16:11:30 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 5 is served by cash box № 2
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.entity.CashBox - Client № 11 came in queue in cash box № 2
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:30 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 7 is served by cash box № 1
+16.03.2016 16:11:30 [Thread-0] INFO  by.bsu.office.util.ClientSwapper - Client № 7 was served earlier than changed with client from another queue
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.entity.CashBox - Client № 12 came in queue in cash box № 1
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:30 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 6 is served by cash box № 2
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.entity.CashBox - Client № 13 came in queue in cash box № 2
+16.03.2016 16:11:30 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:30 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 8 is served by cash box № 1
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.entity.CashBox - Client № 14 came in queue in cash box № 1
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:31 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 9 is served by cash box № 2
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.entity.CashBox - Client № 15 came in queue in cash box № 2
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:31 [Thread-16] INFO  by.bsu.office.entity.Client - Client № 15 wants to transfer from cash box № 2 to another queue
+16.03.2016 16:11:31 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 10 is served by cash box № 1
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.entity.CashBox - Client № 16 came in queue in cash box № 1
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:31 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 11 is served by cash box № 2
+16.03.2016 16:11:31 [Thread-1] INFO  by.bsu.office.util.ClientSwapper - Client № 10 was served earlier than changed with client from another queue
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.entity.CashBox - Client № 17 came in queue in cash box № 2
+16.03.2016 16:11:31 [main] INFO  by.bsu.office.service.ShopService - Choice new cash box
+16.03.2016 16:11:32 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 12 is served by cash box № 1
+16.03.2016 16:11:32 [main] INFO  by.bsu.office.entity.CashBox - Client № 18 came in queue in cash box № 1
+16.03.2016 16:11:32 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 13 is served by cash box № 2
+16.03.2016 16:11:32 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 14 is served by cash box № 1
+16.03.2016 16:11:32 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 15 is served by cash box № 2
+16.03.2016 16:11:33 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 16 is served by cash box № 1
+16.03.2016 16:11:33 [Thread-1] INFO  by.bsu.office.entity.CashBox - Client № 17 is served by cash box № 2
+16.03.2016 16:11:33 [Thread-0] INFO  by.bsu.office.entity.CashBox - Client № 18 is served by cash box № 1
+16.03.2016 16:11:33 [Thread-1] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 2 is empty/ is waiting clients
+16.03.2016 16:11:34 [Thread-0] INFO  by.bsu.office.entity.CashBox - Queue in cash box № 1 is empty/ is waiting clients
