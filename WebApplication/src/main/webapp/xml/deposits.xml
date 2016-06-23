@@ -1,0 +1,152 @@
+<deposits xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.example.com/deposits"
+  xsi:schemaLocation="http://www.example.com/deposits deposit.xsd">
+
+
+  <multi-deposit account-id="blr11111" type-of-currency="EUR">
+  	<bank>
+  		<name>BelarusBank</name>
+  		<country>Belarus</country>
+  	</bank>
+  	<depositor>Molochko Vitaly</depositor>
+  	<amount-on-deposit>580</amount-on-deposit>
+  	<profitability>12</profitability>
+  	<time-constraints>5</time-constraints>
+  </multi-deposit>
+
+  <estimated-deposit account-id="blr22222">
+  	<bank>
+  		<name>BelAgroPromBank</name>
+  		<country>Belarus</country>
+  	</bank>
+  	<depositor>Mikhed Veronika</depositor>
+  	<amount-on-deposit>15000000</amount-on-deposit>
+  	<profitability>15</profitability>
+  	<time-constraints>4</time-constraints>
+  	<min-balance>10000000</min-balance>
+  </estimated-deposit>
+
+ <estimated-deposit account-id="blr33333">
+  	<bank>
+  		<name>BelAgroPromBank</name>
+  		<country>Belarus</country>
+  	</bank>
+  	<depositor>Mariay Grakova</depositor>
+  	<amount-on-deposit>20000000</amount-on-deposit>
+  	<profitability>18</profitability>
+  	<time-constraints>6</time-constraints>
+  	<min-balance>10000000</min-balance>
+  </estimated-deposit>
+
+  <multi-deposit account-id="blr44444" type-of-currency="USD">
+  	<bank>
+  		<name>BelInvestBank</name>
+  		<country>Belarus</country>
+  	</bank>
+  	<depositor>Drabkov Vladislav</depositor>
+  	<amount-on-deposit>3500</amount-on-deposit>
+  	<profitability>7</profitability>
+  	<time-constraints>5</time-constraints>
+  </multi-deposit>
+
+  <multi-deposit account-id="blr55555" type-of-currency="RUB">
+  	<bank>
+  		<name>Alpha Bank</name>
+  		<country>Belarus</country>
+  	</bank>
+  	<depositor>Tsykunova Anna</depositor>
+  	<amount-on-deposit>50000</amount-on-deposit>
+  	<profitability>12</profitability>
+  	<time-constraints>4</time-constraints>
+  </multi-deposit>
+
+	<estimated-deposit account-id="blr6666">
+		<bank>
+			<name>TehnoBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Stepan Ivanov</depositor>
+		<amount-on-deposit>12000000</amount-on-deposit>
+		<profitability>17</profitability>
+		<time-constraints>8</time-constraints>
+		<min-balance>2000000</min-balance>
+	</estimated-deposit>
+
+	<multi-deposit account-id="blr77777" type-of-currency="USD">
+		<bank>
+			<name>BelInvestBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Romanchuk Artem</depositor>
+		<amount-on-deposit>35000</amount-on-deposit>
+		<profitability>12</profitability>
+		<time-constraints>12</time-constraints>
+	</multi-deposit>
+	<estimated-deposit account-id="blr88888">
+		<bank>
+			<name>MTBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Molochko Vitaly</depositor>
+		<amount-on-deposit>20000000</amount-on-deposit>
+		<profitability>25</profitability>
+		<time-constraints>5</time-constraints>
+		<min-balance>10000000</min-balance>
+	</estimated-deposit>
+
+	<multi-deposit account-id="blr99999" type-of-currency="USD">
+		<bank>
+			<name>MTBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Drabkov Vladislav</depositor>
+		<amount-on-deposit>15000</amount-on-deposit>
+		<profitability>13</profitability>
+		<time-constraints>7</time-constraints>
+	</multi-deposit>
+	<estimated-deposit account-id="blr01234">
+		<bank>
+			<name>BelAgroPromBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Mariay Grakova</depositor>
+		<amount-on-deposit>2000000</amount-on-deposit>
+		<profitability>28</profitability>
+		<time-constraints>3</time-constraints>
+		<min-balance>1000000</min-balance>
+	</estimated-deposit>
+
+	<multi-deposit account-id="blr01235" type-of-currency="USD">
+		<bank>
+			<name>BelInvestBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Drabkov Vladislav</depositor>
+		<amount-on-deposit>3500</amount-on-deposit>
+		<profitability>7</profitability>
+		<time-constraints>5</time-constraints>
+	</multi-deposit>
+
+	<estimated-deposit account-id="blr01236">
+		<bank>
+			<name>BelAgroPromBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Terlijenko Irina</depositor>
+		<amount-on-deposit>400000000</amount-on-deposit>
+		<profitability>35</profitability>
+		<time-constraints>9</time-constraints>
+		<min-balance>10000000</min-balance>
+	</estimated-deposit>
+
+	<multi-deposit account-id="blr15064" type-of-currency="USD">
+		<bank>
+			<name>BelarusBank</name>
+			<country>Belarus</country>
+		</bank>
+		<depositor>Drabkov Vladislav</depositor>
+		<amount-on-deposit>5000</amount-on-deposit>
+		<profitability>19</profitability>
+		<time-constraints>5</time-constraints>
+	</multi-deposit>
+</deposits>

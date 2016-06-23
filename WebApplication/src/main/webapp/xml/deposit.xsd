@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.example.com/deposits"
+		xmlns:tns="http://www.example.com/deposits"
+		elementFormDefault="qualified">
+
+	<element name="deposits">
+		<complexType>
+			<sequence>
+				<element ref="tns:deposit" minOccurs="2" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="deposit" type="tns:Deposit" abstract="true"/>
+	<element name="multi-deposit" type="tns:MultiDeposit" substitutionGroup="tns:deposit"/>
+	<element name="estimated-deposit" type="tns:EstimatedDeposit"  substitutionGroup="tns:deposit"/>
+
+	<simpleType name="DepositID">
+		<restriction base="ID">
+			<pattern value="blr[0-9]+" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="Bank">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="country" type="string" />
+		</sequence>
+	</complexType>
+
+	<complexType name="Deposit">
+		<sequence>
+			<element name="bank" type="tns:Bank" />
+			<element name="depositor" type="string" />
+			<element name="amount-on-deposit" type="positiveInteger" />
+			<element name="profitability" type="positiveInteger" />
+			<element name="time-constraints" type="positiveInteger" />
+		</sequence>
+		<attribute name="account-id" type="tns:DepositID" use="required" />
+	</complexType>
+
+	<complexType name="MultiDeposit">
+		<complexContent>
+			<extension base="tns:Deposit">
+				<attribute name="type-of-currency" use="optional" default="USD">
+					<simpleType>
+						<restriction base="string">
+							<enumeration value="USD"/>
+							<enumeration value="EUR"/>
+							<enumeration value="CNY"/>
+							<enumeration value="PLN"/>
+							<enumeration value="KZT"/>
+							<enumeration value="RUB"/>
+						</restriction>
+					</simpleType>
+				</attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<complexType name="EstimatedDeposit">
+		<complexContent>
+			<extension base="tns:Deposit">
+				<sequence>
+					<element name="min-balance" type="positiveInteger" />
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+</schema>
