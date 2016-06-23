@@ -1,0 +1,78 @@
+{
+static
+{
+}
+
+{
+}
+{
+}
+{
+}
+{
+}
+{
+}
+{
+}
+}
+{
+{
+}
+{
+}
+{
+}
+{
+}
+{
+}
+{
+}
+{
+}
+}
+return userName;
+return msgText;
+return sendDate;
+return changeDate;
+return id;
+return description;
+return done;
+public class Message
+private String userName;
+private String msgText;
+private String sendDate;
+private String changeDate;
+private boolean isDeleted;
+userName = "Static";
+isDeleted = "false";
+this.id = id;
+this.userName = userName;
+this.msgText = msgText;
+this.sendDate = sendDate;
+this.changeDate = changeDate;
+this.isDeleted = isDeleted;
+public String getUserName()
+public String getMsgText()
+public String getSendDate()
+public String getChangeDate()
+public class Task
+private int id;
+private String description;
+private boolean done;
+this.id = id;
+this.description = description;
+this.done = done;
+public int getId()
+this.id = id;
+public String getDescription()
+this.description = description;
+public boolean isDone()
+this.done = done;
+private final String id;
+public void setId(int id)
+public void setDescription(String description)
+public void setDone(boolean done)
+public Task(int id, String description, boolean done)
+public Message(String id, String userName, String msgText, String sendDate, String changeDate, boolean isDeleted)

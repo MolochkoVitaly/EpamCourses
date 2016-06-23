@@ -1,0 +1,17 @@
+"Static"; "false";
+ = = = = = = = = = = = = =
+ boolean boolean boolean boolean
+ changeDate; changeDate, changeDate; changeDate; class
+ done; description, done) description; done; description; description) description; done; done) done;
+
+ getMsgText() getSendDate() getChangeDate() getId() getDescription()
+ isDeleted; isDeleted id, isDeleted) id; isDeleted; int id; id, id; int id; id) id; isDone()
+ msgText; Message(String msgText, msgText; msgText;
+ private private private private private private public public public public public public private private private public public public public public public public
+ return return return return return return
+ String String String sendDate; String static String String String sendDate, String sendDate; String String String sendDate; String String String setId(int String setDescription(String setDone(boolean
+ this.userName this.msgText this.sendDate this.changeDate this.isDeleted Task Task(int this.id this.description this.done this.id this.description this.done
+ userName userName, userName; userName;
+ void void
+ { { { { { { { { { { { { { { {
+ } } } } } } } } } } } } } } }

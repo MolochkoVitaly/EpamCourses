@@ -1,0 +1,82 @@
+package bsu.famcs.chat.model;
+import bsu.famcs.chat.util.MessageUtil;
+
+public class Message {
+    private final String id;
+    private String userName;
+    private String msgText;
+    private String sendDate;
+    private String changeDate;
+    private boolean isDeleted;
+
+    static {
+        userName = "Static";
+    }
+
+    {
+        isDeleted = "false";
+    }
+
+    public Message(String id, String userName, String msgText, String sendDate, String changeDate, boolean isDeleted) {
+        this.id = id;
+        this.userName = userName;
+        this.msgText = msgText;
+        this.sendDate = sendDate;
+        this.changeDate = changeDate;
+        this.isDeleted = isDeleted;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getMsgText() {
+        return msgText;
+    }
+
+    public String getSendDate() {
+        return sendDate;
+    }
+
+    public String getChangeDate() {
+        return changeDate;
+    }
+}
+
+package org.exadel.todos.model;
+
+public class Task {
+	private int id;
+	private String description;
+	private boolean done;
+
+	public Task(int id, String description, boolean done) {
+		this.id = id;
+		this.description = description;
+		this.done = done;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public boolean isDone() {
+		return done;
+	}
+
+	public void setDone(boolean done) {
+		this.done = done;
+	}
+}

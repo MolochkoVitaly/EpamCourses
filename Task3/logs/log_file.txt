@@ -1,0 +1,4 @@
+24.06.2016 01:29:15 [main] INFO  by.bsu.javacodeparser.reporter.Reporter - Component has been successfully written to a file
+24.06.2016 01:29:15 [main] INFO  by.bsu.javacodeparser.reporter.Reporter - Sorted operators have been successfully written to a file
+24.06.2016 01:29:15 [main] INFO  by.bsu.javacodeparser.reporter.Reporter - Sorted lexemes have been successfully written to a file
+24.06.2016 01:29:15 [main] INFO  by.bsu.javacodeparser.reporter.Reporter - Converted lexemes have been successfully written to a file
