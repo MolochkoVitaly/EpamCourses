@@ -1,0 +1,51 @@
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.main.Main - Start
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file completed
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.init.Initialize - starting initialization
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.init.Initialize - finishing initialization
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.storage.IngredientsStorage - Created ingredient's storage
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.action.SideDishMaker - Starting method maker
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.action.SideDishMaker - finishing method maker
+28.02.2016 22:25:27 [main] INFO  by.bsu.chef.action.SortByCalories - starting method sort
+28.02.2016 22:25:28 [main] INFO  by.bsu.chef.action.SortByCalories - finishing method sort
+28.02.2016 22:25:28 [main] INFO  by.bsu.chef.main.Main - finish
+28.02.2016 22:28:05 [main] INFO  by.bsu.chef.main.Main - Start
+28.02.2016 22:28:05 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file
+28.02.2016 22:28:05 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file completed
+28.02.2016 22:28:05 [main] INFO  by.bsu.chef.init.Initialize - starting initialization
+28.02.2016 22:28:05 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.init.Initialize - finishing initialization
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.storage.IngredientsStorage - Created ingredient's storage
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.action.SideDishMaker - Starting method maker
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.action.SideDishMaker - finishing method maker
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.action.SortByCalories - starting method sort
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.action.SortByCalories - finishing method sort
+28.02.2016 22:28:06 [main] INFO  by.bsu.chef.main.Main - finish
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.main.Main - Start
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file completed
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.init.Initialize - starting initialization
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.init.Initialize - finishing initialization
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.storage.IngredientsStorage - Created ingredient's storage
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.action.SideDishMaker - Starting method maker
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.action.SideDishMaker - finishing method maker
+28.02.2016 22:29:26 [main] INFO  by.bsu.chef.action.SortByCalories - starting method sort
+28.02.2016 22:29:27 [main] INFO  by.bsu.chef.action.SortByCalories - finishing method sort
+28.02.2016 22:29:27 [main] INFO  by.bsu.chef.main.Main - finish

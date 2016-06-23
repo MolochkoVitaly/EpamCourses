@@ -1,0 +1,17 @@
+11.03.2016 20:59:44 [main] INFO  by.bsu.chef.main.Main - Start
+11.03.2016 20:59:44 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.action.DataLoader - Loading data from file completed
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.init.Initialize - starting initialization
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.util.JSONParseUtil - got class type from json
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.init.Initialize - finishing initialization
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.storage.IngredientsStorage - Created ingredient's storage
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.action.SideDishMaker - Starting method maker
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.action.SideDishMaker - finishing method maker
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.action.SortByCalories - starting method sort
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.action.SortByCalories - finishing method sort
+11.03.2016 20:59:45 [main] INFO  by.bsu.chef.main.Main - finish

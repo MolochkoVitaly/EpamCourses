@@ -1,0 +1,52 @@
+{
+  "ingredients": [
+    {
+      "type": "Green",
+      "weight": 120.0,
+      "calories": 100.0,
+      "manufacturer":"Belarus",
+      "name": "Fennel",
+      "taste": "sweet"
+    },
+    {
+      "type": "Vegetables",
+      "weight": 200.0,
+      "calories": 50.0,
+      "manufacturer":"Belarus",
+      "name": "Tomato",
+      "energyValue": 400.0
+    },
+    {
+      "type": "Vegetables",
+      "weight": 150.0,
+      "calories": 10.0,
+      "manufacturer":"Russia",
+      "name": "Cucumber",
+      "energyValue": 250.0
+    },
+    {
+      "type": "Green",
+      "weight": 120.0,
+      "calories": 100.0,
+      "manufacturer":"Belarus",
+      "name": "Parsley",
+      "taste": "bitter"
+    },
+    {
+      "type": "Spice",
+      "weight": 50.0,
+      "calories": 10.0,
+      "manufacturer":"India",
+      "name": "Pepper",
+      "portion": 2.0
+    },
+    {
+      "type": "Spice",
+      "weight": 50.0,
+      "calories": 8.0,
+      "manufacturer": "Belarus",
+      "name": "Coriander",
+      "portion": 2.0
+    }
+  ]
+}
