@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - provider@localhost" uuid="5d5e76e3-c951-45e6-9713-d1b66a3da53d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>provider.*</schema-pattern>
+      <default-schemas>provider.*</default-schemas>
+    </data-source>
+  </component>
+</project>

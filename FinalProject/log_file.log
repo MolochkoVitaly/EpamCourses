@@ -1,0 +1,1826 @@
+[INFO] 2016-06-19 17:29:10 INFO  Controller:28 - GET method
+[INFO] 2016-06-19 17:29:10 INFO  ShowAboutUsCommand:16 - Show about us command
+[INFO] 2016-06-19 17:29:13 INFO  Controller:28 - GET method
+[INFO] 2016-06-19 17:29:13 INFO  ShowContactsCommand:17 - Show contacts command
+[INFO] 2016-06-19 17:29:50 INFO  Controller:28 - GET method
+[INFO] 2016-06-19 17:29:50 INFO  ShowReviewsCommand:23 - Show reviews command
+[INFO] 2016-06-19 17:30:00 INFO  Controller:28 - GET method
+[INFO] 2016-06-19 17:30:00 INFO  ShowAllTariffsCommand:26 - Show all tariffs command
+[INFO] 2016-06-19 17:31:09 INFO  Controller:34 - POST method
+[INFO] 2016-06-19 17:31:09 INFO  ForwardCommand:20 - Forward command
+[INFO] 2016-06-19 17:31:13 INFO  Controller:34 - POST method
+[INFO] 2016-06-19 17:31:13 INFO  ForwardCommand:20 - Forward command
+[INFO] 2016-06-19 17:36:08 INFO  Controller:28 - GET method
+[INFO] 2016-06-19 17:36:08 INFO  NoCommand:14 - No command
+[INFO] 2016-06-19 17:37:12 INFO  Controller:34 - POST method
+[INFO] 2016-06-19 17:37:12 INFO  LanguageCommand:19 - Language command
+[INFO] 2016-06-19 17:37:12 INFO  LanguageCommand:24 - Add to session language parameter.
+[INFO] 2016-06-19 18:57:57 INFO  ConnectionPool:105 - Closed 10 connections
+[INFO] 2016-06-20 02:42:23 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:42:24 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 02:42:32 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:42:32 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 02:42:34 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 02:42:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:42:37 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:42:44 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 02:42:44 INFO  NoCommand:27 - No command
+[INFO] 2016-06-20 02:42:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:42:46 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:43:08 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-20 02:44:23 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 02:44:25 INFO  NoCommand:27 - No command
+[INFO] 2016-06-20 02:44:28 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:44:28 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 02:44:36 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:44:36 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 02:45:55 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 02:46:22 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:46:22 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:47:23 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-20 02:50:49 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 02:50:49 INFO  NoCommand:27 - No command
+[INFO] 2016-06-20 02:50:51 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:50:51 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 02:51:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:51:05 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 02:51:06 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 02:51:15 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:51:15 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:53:09 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:53:09 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:53:32 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 02:53:32 INFO  NoCommand:27 - No command
+[INFO] 2016-06-20 02:53:34 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:53:34 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:54:08 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 02:54:08 INFO  NoCommand:27 - No command
+[INFO] 2016-06-20 02:54:09 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:54:09 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:55:51 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:55:51 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 02:55:56 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 02:55:56 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 03:01:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:01:37 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-20 03:01:37 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-20 03:01:40 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:01:40 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 03:02:27 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:02:27 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 03:30:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:30:05 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 03:30:05 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 03:30:06 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:30:06 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 03:34:39 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:34:39 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-20 03:34:39 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-20 03:34:42 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:34:42 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 03:34:50 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:34:50 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 03:34:50 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 03:34:52 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:34:52 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 03:35:30 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-20 03:36:50 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:36:50 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-20 03:36:57 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:36:57 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-20 03:36:59 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-20 03:37:00 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:37:00 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 03:37:54 INFO  Controller:62 - POST method
+[INFO] 2016-06-20 03:37:54 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-20 03:39:18 INFO  Controller:48 - GET method
+[INFO] 2016-06-20 03:39:18 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-20 03:39:42 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 01:47:28 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:47:28 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:50:23 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 01:51:30 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 01:51:30 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 01:51:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:51:35 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:51:40 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:51:40 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 01:52:25 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:52:25 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:52:29 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:52:29 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 01:52:34 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:52:34 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 01:52:36 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:52:36 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 01:54:07 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:54:07 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:54:07 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:54:07 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:54:10 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:54:10 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 01:54:59 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:54:59 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 01:55:01 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 01:55:01 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 02:00:05 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 02:13:10 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 02:13:10 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 02:13:19 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 02:13:19 INFO  LoginCommand:46 - Login command
+[INFO] 2016-06-21 02:13:20 INFO  LoginCommand:55 - Add to session user.
+[INFO] 2016-06-21 02:13:23 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 02:13:23 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 02:13:28 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 02:13:29 INFO  SubscribeCommand:25 - Subscribe command
+[ERROR] 2016-06-21 02:13:29 ERROR SubscribeCommand:39 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: Некорректный e-mail
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:41)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:30)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 03:54:37 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 03:57:56 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 03:57:56 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 03:57:59 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 03:57:59 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 03:58:03 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 03:58:03 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 03:58:24 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 03:58:24 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 03:58:24 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 03:58:27 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 03:58:27 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 03:58:32 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 03:58:33 INFO  SubscribeCommand:50 - Subscribe command
+[INFO] 2016-06-21 03:58:46 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 03:59:43 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 03:59:43 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-21 03:59:43 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-21 03:59:47 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 03:59:47 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-21 03:59:47 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-21 04:00:00 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 04:01:30 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 04:01:31 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 04:01:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:01:35 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 04:01:38 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:01:38 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 04:02:10 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 04:04:36 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:04:37 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 04:04:40 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:04:40 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 04:04:58 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:04:58 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 04:04:58 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 04:05:02 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 04:05:02 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 04:05:07 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 04:05:07 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-21 04:05:07 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: Некорректный e-mail
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 04:05:18 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 04:05:18 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 04:05:22 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 04:05:22 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-21 04:05:22 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-21 04:05:24 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 04:05:24 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 04:05:27 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 04:05:27 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-21 04:05:27 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: Email is not valid.
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 04:05:32 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 04:05:32 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 04:05:41 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 14:21:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:21:53 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 14:22:02 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:22:02 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 14:23:20 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:23:20 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 14:23:20 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 14:25:30 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 14:25:30 INFO  ShowAboutUsCommand:29 - Show about us command
+[INFO] 2016-06-21 14:25:41 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 14:25:41 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 14:26:31 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 14:26:31 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-21 14:26:31 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 14:26:56 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 14:26:56 INFO  ShowContactsCommand:30 - Show contacts command
+[INFO] 2016-06-21 14:27:04 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 14:27:04 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-21 14:27:12 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:27:12 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 14:28:33 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:28:33 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 14:29:41 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:29:41 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-21 14:29:41 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-21 14:29:44 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:29:44 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 14:29:55 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:29:55 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 14:29:55 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 14:29:59 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 14:29:59 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 14:30:54 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 14:30:54 INFO  FindAllTariffsCommand:45 - Find all tariffs command
+[INFO] 2016-06-21 14:30:59 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 14:30:59 INFO  FindSelectedTariffCommand:35 - Find selected tariff command
+[INFO] 2016-06-21 14:31:06 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 14:31:06 INFO  TransferToArchiveCommand:45 - Transfer to archive command
+[INFO] 2016-06-21 22:55:43 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 22:55:43 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 22:59:07 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 22:59:07 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 22:59:25 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 22:59:26 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 22:59:29 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 22:59:29 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-21 22:59:29 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-21 22:59:31 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 22:59:31 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 23:01:18 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:01:18 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 23:01:20 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:01:20 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 23:01:45 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:01:45 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 23:01:54 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:01:54 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 23:01:54 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 23:02:01 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:02:01 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:04:32 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:04:32 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:06:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:06:05 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:06:06 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:06:06 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:07:04 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:07:04 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:09:16 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:09:16 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:09:33 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:09:33 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[INFO] 2016-06-21 23:09:34 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:09:34 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-21 23:09:49 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:09:49 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[ERROR] 2016-06-21 23:09:49 ERROR ReplenishBalanceCommand:68 - LogicException
+by.bsu.internetprovider.exception.LogicException: Enter correct amount
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validationField(ReplenishBalanceLogic.java:90)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validation(ReplenishBalanceLogic.java:76)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.replenishBalance(ReplenishBalanceLogic.java:47)
+	at by.bsu.internetprovider.ajax.command.impl.ReplenishBalanceCommand.execute(ReplenishBalanceCommand.java:58)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 23:09:50 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:09:50 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-21 23:11:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:11:21 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:12:42 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:12:42 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:16:59 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:16:59 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 23:17:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:17:05 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-21 23:17:05 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-21 23:17:07 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:17:07 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:17:20 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:17:20 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[INFO] 2016-06-21 23:17:20 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:17:20 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-21 23:19:29 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-21 23:33:16 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:33:17 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 23:33:33 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:33:33 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 23:33:36 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 23:33:38 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:33:38 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:33:56 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:33:56 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[INFO] 2016-06-21 23:33:56 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:33:56 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-21 23:34:08 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:34:08 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[ERROR] 2016-06-21 23:34:08 ERROR ReplenishBalanceCommand:68 - LogicException
+by.bsu.internetprovider.exception.LogicException: Ввведите корректную сумму
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validationField(ReplenishBalanceLogic.java:90)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validation(ReplenishBalanceLogic.java:76)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.replenishBalance(ReplenishBalanceLogic.java:47)
+	at by.bsu.internetprovider.ajax.command.impl.ReplenishBalanceCommand.execute(ReplenishBalanceCommand.java:58)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 23:34:09 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:34:09 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-21 23:35:58 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:35:58 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:37:20 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:37:20 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 23:37:25 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:37:25 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 23:37:29 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:37:29 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-21 23:37:29 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-21 23:37:58 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:37:58 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 23:38:06 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:38:06 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-21 23:38:24 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:38:24 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-21 23:38:25 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:38:25 INFO  ShowContactsCommand:30 - Show contacts command
+[INFO] 2016-06-21 23:39:36 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:39:36 INFO  ShowAboutUsCommand:29 - Show about us command
+[INFO] 2016-06-21 23:39:53 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:39:53 INFO  NoCommand:27 - No command
+[INFO] 2016-06-21 23:40:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:40:46 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-21 23:40:46 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-21 23:40:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:40:49 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 23:41:06 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:41:06 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-21 23:41:06 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-21 23:41:14 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:41:14 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:43:01 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:43:01 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:44:32 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:44:32 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:46:27 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:46:27 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-21 23:47:36 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:47:36 INFO  FindAllTariffsCommand:45 - Find all tariffs command
+[INFO] 2016-06-21 23:47:41 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-21 23:47:41 INFO  FindSelectedTariffCommand:35 - Find selected tariff command
+[INFO] 2016-06-21 23:53:33 INFO  Controller:48 - GET method
+[INFO] 2016-06-21 23:53:33 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-21 23:54:16 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:54:16 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-21 23:54:16 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-21 23:54:19 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:54:19 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-21 23:54:31 INFO  Controller:62 - POST method
+[INFO] 2016-06-21 23:54:31 INFO  RestorePasswordCommand:51 - Restore password command
+[ERROR] 2016-06-21 23:54:32 ERROR RestorePasswordCommand:58 - LogicException
+by.bsu.internetprovider.exception.LogicException: Не найдет пользователь с таким номером, пожадйста введите корректный номер мобильноо
+	at by.bsu.internetprovider.logic.RestorePasswordLogic.restoreBySMS(RestorePasswordLogic.java:43)
+	at by.bsu.internetprovider.command.impl.RestorePasswordCommand.choiceRecovery(RestorePasswordCommand.java:84)
+	at by.bsu.internetprovider.command.impl.RestorePasswordCommand.execute(RestorePasswordCommand.java:54)
+	at by.bsu.internetprovider.controller.Controller.processRequest(Controller.java:77)
+	at by.bsu.internetprovider.controller.Controller.doPost(Controller.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 00:45:10 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:45:10 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 00:51:09 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:51:09 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 00:51:12 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:51:12 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 00:54:57 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:54:57 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 00:55:08 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 00:57:29 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:57:29 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 00:57:48 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 00:57:48 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 01:14:52 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 01:15:46 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 01:15:46 INFO  NoCommand:27 - No command
+[INFO] 2016-06-22 01:15:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:15:49 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-22 01:15:49 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-22 01:15:54 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:15:54 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 01:16:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:16:05 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 01:16:07 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 01:16:12 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:16:12 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 01:16:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:16:21 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 01:16:22 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 01:16:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:16:37 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 01:16:45 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:16:45 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 01:17:15 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 01:17:15 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-22 01:17:19 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 01:17:19 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-22 01:17:19 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: You already have subscribed the tariff
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 01:21:11 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:21:11 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-22 01:21:11 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-22 01:26:13 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 01:26:13 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-22 01:27:28 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 01:27:28 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-22 01:28:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:28:21 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-22 01:28:21 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-22 01:28:22 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:28:22 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 01:28:39 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:28:39 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 01:28:39 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 01:28:44 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 01:28:44 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 02:39:45 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:39:45 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 02:39:49 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 02:39:49 INFO  NoCommand:27 - No command
+[INFO] 2016-06-22 02:40:01 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:40:01 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 02:40:11 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:40:11 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 02:40:13 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 02:40:27 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:40:27 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 02:40:51 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:40:51 INFO  ChangePasswordCommand:51 - Change password command
+[INFO] 2016-06-22 02:41:57 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 02:41:57 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-22 02:42:03 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 02:42:03 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-22 02:42:03 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-22 02:42:44 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 03:10:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:10:53 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 03:11:08 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:11:08 INFO  RestorePasswordCommand:52 - Restore password command
+[ERROR] 2016-06-22 03:11:14 ERROR RestorePasswordCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Не найдет пользователь с таким e-mail, пожадйста введите корректный e-mail
+	at by.bsu.internetprovider.logic.RestorePasswordLogic.restoreByEmail(RestorePasswordLogic.java:68)
+	at by.bsu.internetprovider.command.impl.RestorePasswordCommand.choiceRecovery(RestorePasswordCommand.java:92)
+	at by.bsu.internetprovider.command.impl.RestorePasswordCommand.execute(RestorePasswordCommand.java:57)
+	at by.bsu.internetprovider.controller.Controller.processRequest(Controller.java:77)
+	at by.bsu.internetprovider.controller.Controller.doPost(Controller.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 03:11:55 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:11:55 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 03:11:55 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 03:11:57 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:11:57 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 03:12:11 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 03:12:11 INFO  AddNewTariffCommand:45 - Add new tariff command
+[INFO] 2016-06-22 03:12:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:12:35 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 03:13:27 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 03:13:27 INFO  AddNewTariffCommand:45 - Add new tariff command
+[INFO] 2016-06-22 03:15:56 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 03:52:55 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 03:52:55 INFO  NoCommand:27 - No command
+[INFO] 2016-06-22 03:52:56 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:52:56 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 03:53:08 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:53:08 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 03:53:09 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 03:53:11 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 03:53:11 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 03:53:32 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 03:53:32 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 03:54:27 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 11:32:33 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 11:32:36 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 11:32:47 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 11:32:47 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 11:32:54 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 11:32:57 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 11:32:57 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 11:33:20 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 11:33:20 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 11:34:47 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 11:34:47 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 11:35:33 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 11:35:33 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 11:37:26 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 11:37:26 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 11:40:50 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 13:42:24 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 13:42:24 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 13:42:36 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 13:42:36 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 13:42:40 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 13:42:44 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 13:42:44 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 13:43:00 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 13:43:00 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 13:43:00 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 13:43:17 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 13:43:17 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 13:43:48 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 13:43:48 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 13:43:52 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 13:43:52 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 13:43:52 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 13:43:59 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 13:43:59 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 13:43:59 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:00:04 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 14:01:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:01:35 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 14:01:47 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:01:47 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 14:01:49 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 14:01:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:01:53 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 14:02:02 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:02:02 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:02:51 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:05:11 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:05:11 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:05:21 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:05:34 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:05:34 INFO  AddNewTariffCommand:46 - Add new tariff command
+[INFO] 2016-06-22 14:06:12 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:06:12 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:06:19 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:06:27 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:06:27 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:06:30 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:06:48 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 14:31:31 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:31:32 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 14:31:42 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:31:42 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 14:31:44 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 14:31:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:31:46 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 14:31:54 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:31:54 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:31:59 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:60)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:32:13 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:32:13 INFO  AddNewTariffCommand:46 - Add new tariff command
+[ERROR] 2016-06-22 14:32:17 ERROR AddNewTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное описание
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validationText(AddNewTariffLogic.java:79)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.validation(AddNewTariffLogic.java:61)
+	at by.bsu.internetprovider.ajax.logic.AddNewTariffLogic.add(AddNewTariffLogic.java:43)
+	at by.bsu.internetprovider.ajax.command.impl.AddNewTariffCommand.execute(AddNewTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:32:33 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 14:36:34 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:36:34 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 14:36:43 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:36:43 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 14:36:45 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 14:36:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:36:49 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 14:37:07 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:37:07 INFO  FindAllTariffsCommand:45 - Find all tariffs command
+[INFO] 2016-06-22 14:37:11 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:37:11 INFO  FindSelectedTariffCommand:35 - Find selected tariff command
+[INFO] 2016-06-22 14:37:17 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:37:17 INFO  EditTariffCommand:46 - Edit tariff command
+[ERROR] 2016-06-22 14:37:17 ERROR EditTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validationText(EditTariffLogic.java:81)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validation(EditTariffLogic.java:62)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.editTariff(EditTariffLogic.java:45)
+	at by.bsu.internetprovider.ajax.command.impl.EditTariffCommand.execute(EditTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:37:26 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:37:26 INFO  EditTariffCommand:46 - Edit tariff command
+[ERROR] 2016-06-22 14:37:26 ERROR EditTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное название
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validationText(EditTariffLogic.java:81)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validation(EditTariffLogic.java:62)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.editTariff(EditTariffLogic.java:45)
+	at by.bsu.internetprovider.ajax.command.impl.EditTariffCommand.execute(EditTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:37:36 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:37:36 INFO  EditTariffCommand:46 - Edit tariff command
+[ERROR] 2016-06-22 14:37:36 ERROR EditTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное описание
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validationText(EditTariffLogic.java:81)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validation(EditTariffLogic.java:63)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.editTariff(EditTariffLogic.java:45)
+	at by.bsu.internetprovider.ajax.command.impl.EditTariffCommand.execute(EditTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:45:34 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 14:47:43 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:47:44 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 14:47:52 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:47:52 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 14:47:54 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 14:47:56 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 14:47:56 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-22 14:48:00 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 14:48:00 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 14:48:11 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:48:11 INFO  FindAllTariffsCommand:45 - Find all tariffs command
+[INFO] 2016-06-22 14:48:12 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:48:12 INFO  FindSelectedTariffCommand:35 - Find selected tariff command
+[INFO] 2016-06-22 14:48:19 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 14:48:19 INFO  EditTariffCommand:46 - Edit tariff command
+[ERROR] 2016-06-22 14:48:19 ERROR EditTariffCommand:62 - LogicException
+by.bsu.internetprovider.exception.LogicException: Некорректное описание
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validationText(EditTariffLogic.java:84)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.validation(EditTariffLogic.java:66)
+	at by.bsu.internetprovider.ajax.logic.EditTariffLogic.editTariff(EditTariffLogic.java:48)
+	at by.bsu.internetprovider.ajax.command.impl.EditTariffCommand.execute(EditTariffCommand.java:52)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-22 14:51:45 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-22 15:20:20 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 15:20:21 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-22 15:20:33 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 15:20:33 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-22 15:20:40 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-22 15:20:43 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 15:20:43 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-22 15:20:54 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 15:20:55 INFO  FindAllTariffsCommand:45 - Find all tariffs command
+[INFO] 2016-06-22 15:20:57 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 15:20:57 INFO  FindSelectedTariffCommand:35 - Find selected tariff command
+[INFO] 2016-06-22 15:21:01 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-22 15:21:01 INFO  EditTariffCommand:46 - Edit tariff command
+[INFO] 2016-06-22 15:21:06 INFO  Controller:48 - GET method
+[INFO] 2016-06-22 15:21:06 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-22 15:21:15 INFO  Controller:62 - POST method
+[INFO] 2016-06-22 15:21:15 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-22 15:21:15 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-22 15:21:33 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 19:04:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 19:04:21 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 20:18:29 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 20:18:29 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 20:37:14 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 20:38:12 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 20:38:12 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 20:41:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 20:41:53 INFO  RegistrateCommand:70 - Registrate command
+[ERROR] 2016-06-23 20:41:53 ERROR RegistrateCommand:90 - Something has gone wrong with registration.
+by.bsu.internetprovider.exception.LogicException: Неорректный адрес.
+	at by.bsu.internetprovider.logic.RegistrationLogic.validationField(RegistrationLogic.java:126)
+	at by.bsu.internetprovider.logic.RegistrationLogic.validation(RegistrationLogic.java:97)
+	at by.bsu.internetprovider.logic.RegistrationLogic.registrate(RegistrationLogic.java:63)
+	at by.bsu.internetprovider.command.impl.RegistrateCommand.execute(RegistrateCommand.java:78)
+	at by.bsu.internetprovider.controller.Controller.processRequest(Controller.java:77)
+	at by.bsu.internetprovider.controller.Controller.doPost(Controller.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-23 20:59:23 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 20:59:23 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 20:59:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 20:59:46 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 21:00:19 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 21:16:15 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:16:15 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 21:16:15 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 21:17:46 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 21:21:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:21:05 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 21:21:05 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 21:21:08 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:21:08 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 21:25:06 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 21:26:09 INFO  Controller:48 - GET method
+[INFO] 2016-06-23 21:26:09 INFO  ShowContactsCommand:30 - Show contacts command
+[INFO] 2016-06-23 21:26:23 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 21:32:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:32:35 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 21:32:35 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 21:44:56 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 21:51:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:51:21 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 21:51:21 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 21:51:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:51:37 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 21:51:40 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:51:40 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 21:51:51 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:51:51 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 21:51:54 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 21:52:02 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:52:02 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 21:54:08 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:54:08 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 21:55:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:55:49 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 21:56:05 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 21:56:05 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-23 21:56:05 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-23 21:57:02 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:03:18 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:03:19 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 22:03:19 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 22:03:20 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:03:20 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:03:25 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:03:25 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:03:33 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:03:33 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:03:35 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:03:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:03:37 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:04:53 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:08:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:08:37 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 22:08:37 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 22:08:39 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:08:39 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:08:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:08:49 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:08:51 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:08:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:08:53 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:09:17 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:09:17 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-23 22:09:17 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-23 22:09:23 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:21:28 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:21:28 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 22:21:28 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 22:21:30 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:21:30 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:21:33 INFO  Controller:48 - GET method
+[INFO] 2016-06-23 22:21:33 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-23 22:21:42 INFO  Controller:48 - GET method
+[INFO] 2016-06-23 22:21:42 INFO  ShowReviewsCommand:42 - Show reviews command
+[INFO] 2016-06-23 22:21:47 INFO  Controller:48 - GET method
+[INFO] 2016-06-23 22:21:47 INFO  ShowContactsCommand:30 - Show contacts command
+[INFO] 2016-06-23 22:21:54 INFO  Controller:48 - GET method
+[INFO] 2016-06-23 22:21:54 INFO  ShowAboutUsCommand:29 - Show about us command
+[INFO] 2016-06-23 22:22:06 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:22:06 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:22:19 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:22:19 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:22:19 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:22:21 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:22:21 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:26:06 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:26:48 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:26:48 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 22:26:48 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 22:26:50 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:26:50 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:27:00 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:27:00 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:27:01 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:27:04 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:27:04 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:28:25 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:33:30 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:33:30 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-23 22:33:30 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-23 22:33:31 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:33:31 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:33:42 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:33:42 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:33:44 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:33:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:33:46 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:34:35 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:34:35 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:34:44 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:34:44 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:34:44 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:34:47 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:34:47 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-23 22:37:02 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-23 22:55:47 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:55:47 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-23 22:55:55 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:55:55 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-23 22:55:57 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-23 22:55:59 INFO  Controller:62 - POST method
+[INFO] 2016-06-23 22:55:59 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:15:59 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:16:04 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:16:13 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:16:13 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-24 00:16:13 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-24 00:19:15 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:19:15 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:21:25 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:21:25 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:21:34 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:21:34 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:22:13 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:22:13 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-24 00:22:13 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-24 00:22:38 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:22:38 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:22:46 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:22:46 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-24 00:22:46 INFO  LoginCommand:60 - Add to session user.
+[INFO] 2016-06-24 00:22:50 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:22:50 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:24:47 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:24:47 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[ERROR] 2016-06-24 00:24:47 ERROR ReplenishBalanceCommand:68 - LogicException
+by.bsu.internetprovider.exception.LogicException: Ввведите корректную сумму
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validationField(ReplenishBalanceLogic.java:90)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.validation(ReplenishBalanceLogic.java:76)
+	at by.bsu.internetprovider.ajax.logic.ReplenishBalanceLogic.replenishBalance(ReplenishBalanceLogic.java:47)
+	at by.bsu.internetprovider.ajax.command.impl.ReplenishBalanceCommand.execute(ReplenishBalanceCommand.java:58)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:24:47 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:24:47 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-24 00:25:05 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:25:05 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[INFO] 2016-06-24 00:25:06 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:25:06 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-24 00:25:22 INFO  ConnectionPool:166 - Closed 10 connections
+[INFO] 2016-06-24 00:26:40 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:26:40 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:26:45 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:26:45 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:44:40 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:44:40 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:46:49 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:46:49 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:49:26 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:49:26 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:50:07 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:50:07 INFO  RegistrateCommand:70 - Registrate command
+[ERROR] 2016-06-24 00:50:07 ERROR RegistrateCommand:90 - Something has gone wrong with registration.
+by.bsu.internetprovider.exception.LogicException: Некорректный пароль
+	at by.bsu.internetprovider.logic.RegistrationLogic.validationPassword(RegistrationLogic.java:110)
+	at by.bsu.internetprovider.logic.RegistrationLogic.validation(RegistrationLogic.java:91)
+	at by.bsu.internetprovider.logic.RegistrationLogic.registrate(RegistrationLogic.java:63)
+	at by.bsu.internetprovider.command.impl.RegistrateCommand.execute(RegistrateCommand.java:78)
+	at by.bsu.internetprovider.controller.Controller.processRequest(Controller.java:77)
+	at by.bsu.internetprovider.controller.Controller.doPost(Controller.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:51:18 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:51:18 INFO  RegistrateCommand:70 - Registrate command
+[INFO] 2016-06-24 00:52:07 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:52:07 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:52:11 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:52:11 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-24 00:52:11 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-24 00:52:12 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:52:12 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:52:22 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:52:22 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:52:28 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:52:28 INFO  LanguageCommand:34 - Language command
+[INFO] 2016-06-24 00:52:28 INFO  LanguageCommand:39 - Add to session language parameter.
+[INFO] 2016-06-24 00:52:30 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:52:30 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:52:41 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:52:41 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-24 00:52:47 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:52:47 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-24 00:52:47 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: Недостаточно средств
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.create(SubscribeLogic.java:111)
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:53)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:52:53 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:52:53 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:53:01 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:01 INFO  ReplenishBalanceCommand:49 - Replenish balance command
+[INFO] 2016-06-24 00:53:01 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:01 INFO  ShowBalanceCommand:48 - Show balance command
+[INFO] 2016-06-24 00:53:08 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:53:08 INFO  ShowAllTariffsCommand:45 - Show all tariffs command
+[INFO] 2016-06-24 00:53:12 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:12 INFO  SubscribeCommand:50 - Subscribe command
+[INFO] 2016-06-24 00:53:19 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:19 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-24 00:53:19 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:53:23 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:23 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-24 00:53:23 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:53:26 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:26 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-24 00:53:26 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:53:30 INFO  AJAXController:62 - POST method
+[INFO] 2016-06-24 00:53:30 INFO  SubscribeCommand:50 - Subscribe command
+[ERROR] 2016-06-24 00:53:30 ERROR SubscribeCommand:66 - Something has gone wrong.
+by.bsu.internetprovider.exception.LogicException: У вас уже есть подписка на тариф
+	at by.bsu.internetprovider.ajax.logic.SubscribeLogic.subscribe(SubscribeLogic.java:56)
+	at by.bsu.internetprovider.ajax.command.impl.SubscribeCommand.execute(SubscribeCommand.java:57)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.processRequest(AJAXController.java:79)
+	at by.bsu.internetprovider.ajax.controller.AJAXController.doPost(AJAXController.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at by.bsu.internetprovider.filter.FilterEncoding.doFilter(FilterEncoding.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2016-06-24 00:53:37 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:53:37 INFO  GoToPrivateOfficeCommand:52 - Go to private office command
+[INFO] 2016-06-24 00:54:30 INFO  Controller:48 - GET method
+[INFO] 2016-06-24 00:54:30 INFO  NoCommand:27 - No command
+[INFO] 2016-06-24 00:54:39 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:54:39 INFO  LogOutCommand:29 - Logout command
+[INFO] 2016-06-24 00:54:39 INFO  LogOutCommand:31 - Finish session.
+[INFO] 2016-06-24 00:54:43 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:54:43 INFO  ForwardCommand:38 - Forward command
+[INFO] 2016-06-24 00:54:58 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:54:58 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-24 00:55:13 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:55:13 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-24 00:55:41 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 00:55:41 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-24 01:02:09 INFO  Controller:62 - POST method
+[INFO] 2016-06-24 01:02:09 INFO  LoginCommand:50 - Login command
+[INFO] 2016-06-24 01:02:09 INFO  LoginCommand:60 - Add to session user.

@@ -1,0 +1,5 @@
+<footer class="main-footer">
+    <div class="footer-text">
+        <fmt:message key="footer"/>
+    </div>
+</footer>

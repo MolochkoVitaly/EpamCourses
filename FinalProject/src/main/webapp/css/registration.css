@@ -1,0 +1,51 @@
+label {
+    padding-left: 50px;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+#register_container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#form_container {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.text_input:focus {
+    outline: 0;
+}
+
+.text_input {
+    color: #0f0f0f;
+    border: 0;
+    margin: 5px 35px 0 34px;
+    padding: 0 0 0 10px;
+    width: 229px;
+    height: 32px;
+    background: url(../images/text_input.png) top left no-repeat;
+}
+
+.login-text {
+    text-align:center;
+    margin:25px;
+    color:#515151;
+    font-family: 'Lobster', cursive;
+}
+
+.field {
+    display: inline-block;
+    float: right;
+}
+
+#register_container input[type=submit] {
+    margin-left: 190px;
+    margin-top: 30px;
+}
+

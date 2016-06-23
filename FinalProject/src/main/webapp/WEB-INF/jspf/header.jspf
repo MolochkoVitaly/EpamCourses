@@ -1,0 +1,53 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="navbar-brand" href=controller><fmt:message key="header.main"/></a>
+                </li>
+                <li>
+                    <a href=controller?command=showAllTariffs><fmt:message key="header.list.of.rates"/></a>
+                </li>
+                <li>
+                    <a href=controller?command=showReviews><fmt:message key="header.reviews"/></a>
+                </li>
+                <li>
+                    <a href=controller?command=showContacts><fmt:message key="header.contacts"/></a>
+                </li>
+                <li>
+                    <a href=controller?command=showAboutUs><fmt:message key="header.about.us"/></a>
+                </li>
+                <li class="user-date"><ctg:today format="dd.MM.yyyy"/></li>
+                <li class="user-name">
+                    ${user.role}: ${user.name} ${user.patronymic}
+                </li>
+            </ul>
+            <c:if test="${not empty user}">
+                <div class="register-area">
+                    <form id="logout" class="navbar-form" action="controller" method="post">
+                        <input type="hidden" name="command" value="logout" />
+                        <input type="submit" class="btn btn-default" value="<fmt:message key="button.logout"/> " />
+                    </form>
+                    <form id="office" class="navbar-form" action="controller" method="post">
+                        <input type="hidden" name="command" value="privateOffice" />
+                        <input type="submit" class="btn btn-default" value="<fmt:message key="button.private-office"/> " />
+                    </form>
+                </div>
+            </c:if>
+            <c:if test="${empty user}">
+                <div class="register-area">
+                    <form id="sign-in" class="navbar-form" action="controller" method="post">
+                        <input type="hidden" name="command" value="forward" />
+                        <input type="hidden" name="forward" value="toLogin" />
+                        <input type="submit" class="btn btn-default" value="<fmt:message key="button.login"/>" />
+                    </form>
+                    <form id="sign-up" class="navbar-form" action="controller" method="post">
+                        <input type="hidden" name="command" value="forward" />
+                        <input type="hidden" name="forward" value="toRegister" />
+                        <input type="submit" class="btn btn-default" value="<fmt:message key="button.register"/> " />
+                    </form>
+                </div>
+            </c:if>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,166 @@
+body {
+    background: url(../images/bg.png) repeat;
+    color: #999;
+    margin: 0;
+}
+
+div.register-area form {
+	float: right!important;
+}
+
+#tooltip {
+    z-index: 9999;
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.office{
+    background: white repeat;
+}
+
+.balance {
+    width: 250px;
+    margin-left: 430px;
+    margin-bottom: 125px;
+}
+
+.pay{
+    margin-top: 125px;
+}
+
+#upBalance {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.contacts {
+    background: white repeat;
+}
+
+.user-name {
+    margin: 15px;
+    color: #67b168;
+}
+
+.user-date {
+    margin: 15px;
+}
+
+.tariff-description {
+    text-align: center;
+}
+.subscribe {
+    float: right;
+}
+.result {
+}
+.result-text {
+    text-align: center;
+}
+
+.map {
+    padding-bottom: 15px;
+}
+.reviews-container {
+    background: white repeat;
+}
+
+#reviews-area {
+    position: inherit;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 450px;
+}
+
+blockquote:hover {
+    background: aliceblue;
+}
+
+.reviewsScroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 475px;
+}
+
+div.actions button {
+    width: 50%;
+    margin-top:5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.outer-container:after {
+    content:"";
+    display: block;
+    height: 50px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.outer-container {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.empty-for-header {
+    height: 50px;
+}
+
+footer.main-footer {
+    background: lightgray;
+    height: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.forgot {
+    float: right;
+    margin-right: 35px;
+    margin-top: 5px;
+    font-size: smaller;
+    color: black;
+}
+
+.find-tariff {
+    float: right;
+    margin-right: 130px;
+}
+
+
+.edit-tariff {
+    width: 350px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+#cancel {
+    float: right;
+}
+
+.dropdown ul {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#addTariff {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.row span {
+    width: 39px;
+}
