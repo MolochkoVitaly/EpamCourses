@@ -32,7 +32,7 @@ public class Controller extends HttpServlet {
      * Method init ...
      */
     @Override
-    public void init() {
+    public void init() throws ServletException {
     }
 
     /**
