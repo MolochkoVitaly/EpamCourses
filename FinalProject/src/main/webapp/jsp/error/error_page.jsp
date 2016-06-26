@@ -16,8 +16,8 @@
 </head>
 <body>
 <body>
-    <jsp:expression>(request.getAttribute("errorMessage") != null) ?
-        (String) request.getAttribute("errorMessage") : "unknown error"</jsp:expression>
+    <jsp:expression>((Exception) request.getAttribute("errorMessage") != null) ?
+        (Exception) request.getAttribute("errorMessage") : "unknown error"</jsp:expression>
     <hr />
 <a href="controller">
     <button type="button" class="btn btn-default">Main</button>
