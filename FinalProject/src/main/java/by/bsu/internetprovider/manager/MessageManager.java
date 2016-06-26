@@ -156,6 +156,9 @@ public enum MessageManager {
     /** Field PATRONYMIC_IS_NOT_VALID  */
     public static final String VOLUME_IS_NOT_VALID = "volume.is.not.valid";
 
+    /** Field PASSWORDS_NOT_EQUALS  */
+    public static final String PASSWORDS_NOT_EQUALS = "passwords.not.equals";
+
     /**
      * Constructor MessageManager creates a new MessageManager instance.
      *
