@@ -7,7 +7,6 @@ import by.bsu.internetprovider.entity.User;
 import by.bsu.internetprovider.exception.DAOException;
 import by.bsu.internetprovider.exception.LogicException;
 import by.bsu.internetprovider.exception.TechnicalException;
-import by.bsu.internetprovider.manager.ConfigurationManager;
 import by.bsu.internetprovider.manager.MessageManager;
 
 import java.util.regex.Pattern;
@@ -31,8 +30,10 @@ public class ChangePasswordLogic {
      * @throws TechnicalException when
      * @throws LogicException when
      */
-    public static void change(User user, String newPassword, String locale) throws TechnicalException, LogicException {
+    public static void change(User user,String password, String passwordAgain, String newPassword, String locale) throws TechnicalException, LogicException {
         try {
+            validationEqualsPassword(password, passwordAgain, locale);
+            checkPassword(user, password, locale);
             validationPassword(newPassword, locale);
             UserDAO.getInstance().changeUserPassword(user, MD5.encipherPassword(newPassword));
         } catch (DAOException e) {
@@ -40,10 +41,43 @@ public class ChangePasswordLogic {
         }
     }
 
+
+    /**
+     * Method checkPassword ...
+     *
+     * @param user of type User
+     * @param password of type String
+     * @param locale of type String
+     * @throws LogicException when
+     */
+    private static void checkPassword(User user, String password, String locale) throws LogicException {
+        if (!user.getPassword().equals(MD5.encipherPassword(password))) {
+            throw new LogicException(MessageManager.getManagerByLocale(locale).getProperty(
+                    MessageManager.PASSWORDS_NOT_EQUALS));
+        }
+    }
+
+    /**
+     * Method validationEqualsPassword ...
+     *
+     * @param password of type String
+     * @param passwordAgain of type String
+     * @param locale of type String
+     * @throws LogicException when
+     */
+    private static void validationEqualsPassword(String password, String passwordAgain, String locale) throws LogicException {
+        if (!password.equals(passwordAgain) && Pattern.matches(PARAM_PASSWORD_VALIDATION, password)) {
+            throw new LogicException(MessageManager.getManagerByLocale(locale).getProperty(
+                    MessageManager.PASSWORDS_NOT_EQUALS));
+        }
+    }
+
+
     /**
      * Method validationPassword ...
      *
      * @param password of type String
+     * @param locale of type String
      * @throws LogicException when
      */
     private static void validationPassword(String password, String locale) throws LogicException {
