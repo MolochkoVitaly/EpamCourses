@@ -26,6 +26,12 @@ public class ChangePasswordCommand implements Command {
     private static final Logger LOG = LogManager.getLogger(ChangePasswordCommand.class);
 
     /** Field NEW_PASSWORD  */
+    private static final String PASSWORD = "password";
+
+    /** Field NEW_PASSWORD  */
+    private static final String PASSWORD_AGAIN = "passwordAgain";
+
+    /** Field NEW_PASSWORD  */
     private static final String NEW_PASSWORD = "newPassword";
 
     /** Field USER  */
@@ -51,12 +57,16 @@ public class ChangePasswordCommand implements Command {
         LOG.info("Change password command");
         String page = null;
         String newPassword = null;
+        String password = null;
+        String passwordAgain = null;
         HttpSession session = request.getSession(true);
         String lang = (String) session.getAttribute(LANG);
         try {
+            password = (request.getParameter(PASSWORD)).trim();
+            passwordAgain = (request.getParameter(PASSWORD_AGAIN)).trim();
             newPassword = (request.getParameter(NEW_PASSWORD)).trim();
             User user = (User)request.getSession().getAttribute(USER);
-            ChangePasswordLogic.change(user, newPassword, lang);
+            ChangePasswordLogic.change(user,password, passwordAgain, newPassword, lang);
             user.setPassword(MD5.encipherPassword(newPassword));
             request.getSession().setAttribute(USER, user);
             request.setAttribute(PARAM_ACTION_MESSAGE, MessageManager.getManagerByLocale(lang).getProperty(
