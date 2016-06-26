@@ -1,3 +1,4 @@
+<%@ page pageEncoding="UTF-8"%>
 <button class="btn btn-info" id="editData" type="button" data-toggle="modal" data-target="#editDataModal" style="float: right; margin-right: 15px"><fmt:message key="office.edit.data"/> </button>
 <button class="btn btn-info" id="changePassword" type="button" data-toggle="modal" data-target="#changePasswordModal" style="float: right; margin-right: 10px"><fmt:message key="office.change.password"/> </button>
 <div id="editDataModal" class="modal fade" tabindex="-1" >
@@ -53,9 +54,24 @@
                 <form method="POST" action="controller">
                     <div class="form-group input-group">
                         <input type="hidden" name="command" value="changePassword">
-                        <div class="input-group">
+                        <label for="password">Password</label>
+                        <div class="input-group" id="password" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                            <input class="form-control" type="text" name="newPassword" style="width:207px;"
+                            <input class="form-control" type="text" name="password" style="width:207px;"
+                                   placeholder="<fmt:message key="register.placeholder.password"/>"
+                                   pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
+                        </div>
+                        <label for="passwordAgain">Password again</label>
+                        <div class="input-group" id="passwordAgain" style="margin-bottom: 20px;">
+                            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                            <input class="form-control" type="text" name="passwordAgain" style="width:207px;"
+                                   placeholder="<fmt:message key="register.placeholder.password"/>"
+                                   pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
+                        </div>
+                        <label for="newPassword">New password</label>
+                        <div class="input-group" id="newPassword" style="margin-bottom: 20px;">
+                            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                            <input class="form-control"  type="text" name="newPassword" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
