@@ -68,6 +68,9 @@ public enum MessageManager {
     /** Field EDIT_EMAIL_IS_USED  */
     public static final String EDIT_EMAIL_IS_USED = "edit.email.is.used";
 
+    /** Field EDIT_PHONE_IS_USED  */
+    public static final String EDIT_PHONE_IS_USED = "edit.phone.is.used";
+
     /** Field SUCCESS_SUBSCRIBE  */
     public static final String SUCCESS_SUBSCRIBE = "tariff.subscribe.success";
 
