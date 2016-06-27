@@ -27,7 +27,7 @@ public class AddNewTariffLogic {
     private static final String PARAM_TEXT_VALIDATION = "[A-ZА-ЯЁ][A-ZА-ЯЁa-zа-яё0-9+-_\\s]{2,}$";
 
     /** Field PARAM_NAME_VALIDATION  */
-    private static final String PARAM_DESCRIPTION_VALIDATION = "^[A-ZА-ЯЁ][A-ZА-ЯЁa-zа-яё.,:;!,\"~`#@$%&^*()-_=+\\s]{2,}$";
+    private static final String PARAM_DESCRIPTION_VALIDATION = "^[A-ZА-ЯЁ0-9\\s][A-ZА-ЯЁa-zа-яё.,:;!,\"~`#@$%&^*()-_=+\\s]{2,}$";
 
     /** Field PARAM_TEXT_VALIDATION  */
     private static final String PARAM_NUMBER_VALIDATION = "[1-9][0-9]{1,}";
