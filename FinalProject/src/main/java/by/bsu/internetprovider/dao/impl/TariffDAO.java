@@ -62,7 +62,8 @@ public class TariffDAO implements ITariffDAO {
 
     /** Field FIND_TARIFF_BY_ID  */
     private static final String FIND_TARIFF_BY_ID =
-            "SELECT * FROM tariffs WHERE tariff_id = ?";
+            "SELECT tariff_id, tariff_name, description, currency_code, month_payment, upload_speed, download_speed," +
+            " traffic_volume, in_archive  FROM tariffs WHERE tariff_id = ?";
 
     /** Field EDIT_TARIFF  */
     private static final String EDIT_TARIFF =

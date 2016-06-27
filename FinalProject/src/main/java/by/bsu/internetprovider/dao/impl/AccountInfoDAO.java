@@ -83,11 +83,13 @@ public class AccountInfoDAO implements IAccountInfoDAO {
 
     /** Field FIND_ACTIVE_BY_ACCOUNT_ID  */
     private static final String FIND_ACTIVE_BY_ACCOUNT_ID =
-            "SELECT * FROM account_info WHERE account_id = ? AND is_active = \"true\"";
+            "SELECT info_id, account_id, tariff_id, start_date, finish_date, traffic_used, is_active" +
+             "  FROM account_info WHERE account_id = ? AND is_active = \"true\"";
 
     /** Field FIND_USED_TARIFF  */
     private static final String FIND_USED_TARIFF =
-            "SELECT * FROM account_info WHERE account_id = ? AND tariff_id = ?";
+            "SELECT info_id, account_id, tariff_id, start_date, finish_date, traffic_used, is_active" +
+            " FROM account_info WHERE account_id = ? AND tariff_id = ?";
 
     /** Field UPDATE_USED_TARIFF  */
     private static final String UPDATE_USED_TARIFF =

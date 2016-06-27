@@ -64,15 +64,18 @@ public class UserDAO implements IUserDAO {
 
     /** Field FIND_BY_ID  */
     private static final String FIND_BY_ID =
-            "SELECT * FROM clients WHERE client_id = ?";
+            "SELECT client_id, last_name, first_name, patronymic, `email`, `password`, phone_number, address" +
+             " FROM clients WHERE client_id = ?";
 
     /** Field FIND_USER_BY_LOGIN_PASSWORD_IN_CLIENTS  */
     private static final String FIND_USER_BY_LOGIN_PASSWORD_IN_CLIENTS =
-            "SELECT * FROM clients WHERE email = ? AND password = ?";
+            "SELECT client_id, last_name, first_name, patronymic, `email`, `password`, phone_number, address" +
+            " FROM clients WHERE email = ? AND password = ?";
 
     /** Field FIND_USER_BY_LOGIN_PASSWORD_IN_ADMINS  */
     private static final String FIND_USER_BY_LOGIN_PASSWORD_IN_ADMINS =
-            "SELECT * FROM administrators WHERE email = ? AND password = ?";
+            "SELECT admin_id, last_name, first_name, patronymic, `email`, `password`, phone_number, address" +
+             " FROM administrators WHERE email = ? AND password = ?";
 
     /** Field CHANGE_USER_PASSWORD  */
     private static final String CHANGE_USER_PASSWORD = "UPDATE clients SET password = ? WHERE client_id = ?";
@@ -89,12 +92,16 @@ public class UserDAO implements IUserDAO {
     /** Field EDIT_USER_PERSONAL_DATA  */
     private static final String EDIT_USER_PERSONAL_DATA =
             "UPDATE clients SET last_name = ?, email = ?, phone_number = ?, " +
-            "passport = ?, address = ? WHERE client_id = ?";
+            " address = ? WHERE client_id = ?";
 
     /** Field EDIT_ADMIN_PERSONAL_DATA  */
     private static final String EDIT_ADMIN_PERSONAL_DATA =
             "UPDATE administrators SET last_name = ?, email = ?, phone_number = ?, " +
-            "passport = ?, address = ? WHERE admin_id = ?";
+            " address = ? WHERE admin_id = ?";
+
+    /** Field FIND_ALL_PHONES  */
+    private static final String FIND_ALL_PHONES =
+            "SELECT clients.phone_number FROM clients UNION SELECT administrators.phone_number FROM administrators";
 
     /** Field FIND_ALL_EMAIL  */
     private static final String FIND_ALL_EMAIL =
@@ -356,8 +363,8 @@ public class UserDAO implements IUserDAO {
             statement.setString(1, user.getSurname());
             statement.setString(2, user.getEmail());
             statement.setString(3, user.getPhoneNumber());
-            statement.setString(5, user.getAddress());
-            statement.setLong(6, user.getId());
+            statement.setString(4, user.getAddress());
+            statement.setLong(5, user.getId());
 
             statement.executeUpdate();
 
@@ -395,6 +402,34 @@ public class UserDAO implements IUserDAO {
         }
         return emailsList;
     }
+
+    /**
+     * Method findAllPhones ...
+     * @return ArrayList<String>
+     * @throws DAOException when
+     */
+    public ArrayList<String> findAllPhones() throws DAOException {
+        ArrayList<String> phonesList = null;
+        ResultSet resultSet = null;
+        try (ProxyConnection proxyConnection = ConnectionPool.getInstance().takeConnection();
+             PreparedStatement statement = proxyConnection.prepareStatement(FIND_ALL_PHONES)
+        ) {
+            phonesList = new ArrayList<>();
+            resultSet = statement.executeQuery();
+            while (resultSet.next()){
+                phonesList.add(resultSet.getString(PARAM_PHONE_NUMBER));
+            }
+
+        } catch (SQLException ex) {
+            throw new DAOException("SQLException in DAO layer!", ex);
+        }
+        catch (ConnectionPoolException ex){
+            throw new DAOException("ConnectionPool exception!", ex);
+        }
+        return phonesList;
+    }
+
+
 
     /**
      * Method findByEmail ...
