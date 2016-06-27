@@ -27,7 +27,7 @@ public class RequestHelper {
         commands.put("language", new LanguageCommand());
         commands.put("logout", new LogOutCommand());
         commands.put("forward", new ForwardCommand());
-        commands.put("register", new RegistrateCommand());
+        commands.put("registrate", new RegistrateCommand());
         commands.put("privateOffice", new GoToPrivateOfficeCommand());
         commands.put("showAllTariffs", new ShowAllTariffsCommand());
         commands.put("showReviews", new ShowReviewsCommand());
