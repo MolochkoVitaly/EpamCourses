@@ -43,9 +43,7 @@ public class RegistrationLogic {
 
     /** Field PARAM_ADDRESS_VALIDATION  */
     private static final String PARAM_ADDRESS_VALIDATION =
-            "((Брестская|Витебская|Гомельская|Гродненская|Минская|Могилевская)\\s(область,))" +
-                    "(\\s)(г.\\s)([А-ЯЁ][а-яё]{2,})(,\\s)(ул.\\s)([А-ЯЁ][А-ЯЁа-яё\\s-]{2,})(,\\s)(дом\\s)([0-9]{1,})" +
-                    "((,\\s)(кв.\\s)[0-9]{1,}){0,}";
+            "[А-ЯЁ][А-Яа-яёЁ0-9\\s,.:\\/-_]{1,}";
 
     /**
      * Method registrate ...
