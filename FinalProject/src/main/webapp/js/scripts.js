@@ -128,6 +128,9 @@ $(document).ready(function() {
                 async: false,
                 headers: {"Access-Control-Allow-Origin": "*"},
                 contentType: "application/json; charset=utf-8",
+                success: function (responseText) {
+                    updateReviews();
+                },
                 error: function (responseText) {
                     $(".container .reviewsScroll").before(alertError(JSON.parse(responseText.responseText).text)).show();
                     setTimeout(function () {
@@ -437,6 +440,7 @@ $(document).ready(function() {
 
         var blockquoteType = function (id, text, userName, userSurname, date) {
             return '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
+                 '<span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>' +
                  '<p>' + text + '</p>'+
                  '<footer>' + userName + ' ' + userSurname + '</footer>' +
                  '<footer>' + date + '</footer>' +
@@ -475,4 +479,32 @@ $(document).ready(function() {
             }
         });
     }
+
+    $("#reviews-area").find(".delete-review").click(function () {
+        var data = function (id) {
+            return {
+                command: "deleteReview",
+                id:id
+            };
+        };
+
+        var id = $(this).parent().attr("review-id");
+
+        $.ajax({
+            type: "POST",
+            url: "ajaxController",
+            data: JSON.stringify(data(id)),
+            dataType: "json",
+            async: false,
+            headers: {"Access-Control-Allow-Origin": "*"},
+            contentType: "application/json; charset=utf-8",
+            success: function (responseText) {
+                updateReviews();
+            },
+            error: function (responseText) {
+                alert("was not deleted");
+            }
+        });
+    });
+
 });
