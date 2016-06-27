@@ -129,7 +129,7 @@ $(document).ready(function() {
                 headers: {"Access-Control-Allow-Origin": "*"},
                 contentType: "application/json; charset=utf-8",
                 success: function (responseText) {
-                    updateReviews();
+                    updateReviews("CLIENT");
                 },
                 error: function (responseText) {
                     $(".container .reviewsScroll").before(alertError(JSON.parse(responseText.responseText).text)).show();
@@ -140,7 +140,7 @@ $(document).ready(function() {
             });
             textArea.val('');
         }
-        updateReviews();
+        updateReviews("CLIENT");
         //document.getElementById("showMessage").scrollTop = document.getElementById("showMessage").scrollHeight;
     });
 
@@ -431,20 +431,27 @@ $(document).ready(function() {
         });
     });
 
-    function updateReviews() {
+    function updateReviews(role) {
         var data = function () {
             return {
                 command: "updateReviews"
             };
         };
 
-        var blockquoteType = function (id, text, userName, userSurname, date) {
-            return '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
-                 '<span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>' +
-                 '<p>' + text + '</p>'+
-                 '<footer>' + userName + ' ' + userSurname + '</footer>' +
-                 '<footer>' + date + '</footer>' +
-                 '</blockquote>';
+        var blockquoteType = function (id, text, userName, userSurname, date, paramRole) {
+            return paramRole == "ADMIN" ?
+            '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
+            '<span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>' +
+            '<p>' + text + '</p>'+
+            '<footer>' + userName + ' ' + userSurname + '</footer>' +
+            '<footer>' + date + '</footer>' +
+            '</blockquote>'
+                :
+            '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
+            '<p>' + text + '</p>'+
+            '<footer>' + userName + ' ' + userSurname + '</footer>' +
+            '<footer>' + date + '</footer>' +
+            '</blockquote>';
         };
 
         function create(allReviews) {
@@ -455,7 +462,7 @@ $(document).ready(function() {
         }
 
         function addReview(review) {
-            $("#reviews-area").append(blockquoteType(review.id, review.text, review.userName, review.userSurname, review.date));
+            $("#reviews-area").append(blockquoteType(review.id, review.text, review.userName, review.userSurname, review.date, role));
         }
 
         $.ajax({
@@ -499,7 +506,7 @@ $(document).ready(function() {
             headers: {"Access-Control-Allow-Origin": "*"},
             contentType: "application/json; charset=utf-8",
             success: function (responseText) {
-                updateReviews();
+                updateReviews("ADMIN");
             },
             error: function (responseText) {
                 alert("was not deleted");
