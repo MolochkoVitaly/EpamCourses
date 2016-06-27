@@ -73,7 +73,8 @@
                         <div class="form-group">
                             <input type="hidden" id="id" value="">
                             <label for="name"><fmt:message key="office.tariff.name"/></label>
-                            <input type="text" class="form-control" id="name"  style="width: 350px">
+                            <input type="text" class="form-control" id="name"  style="width: 350px"
+                                   pattern="[A-ZА-ЯЁ][A-ZА-ЯЁa-zа-яё0-9+-_\s]{2,}$">
                         </div>
                         <div class="form-group">
                             <label for="description"><fmt:message key="office.tariff.description"/></label>
@@ -84,28 +85,32 @@
                                 <fmt:message key="office.tariff.upload"/> <br/>
                                 <fmt:message key="traffic.speed.value"/>
                             </label>
-                            <input type="text" class="form-control" id="upload" style="width: 70px; float: right">
+                            <input type="text" class="form-control" id="upload" style="width: 70px; float: right"
+                                   pattern="[1-9][0-9]{1,}">
                         </div>
                         <div class="form-group form-inline" style="width:175px;">
                             <label for="download">
                                 <fmt:message key="office.tariff.download"/> <br/>
                                 <fmt:message key="traffic.speed.value"/>
                             </label>
-                            <input type="text" class="form-control" id="download" style="width: 70px; float: right">
+                            <input type="text" class="form-control" id="download" style="width: 70px; float: right"
+                                   pattern="[1-9][0-9]{1,}">
                         </div>
                         <div class="form-group form-inline" style="width:175px;">
                             <label for="volume">
                                 <fmt:message key="office.tariff.volume"/> <br/>
                                 <fmt:message key="traffic.volume.value"/>
                             </label>
-                            <input type="text" class="form-control" id="volume" style="width: 70px; float: right">
+                            <input type="text" class="form-control" id="volume" style="width: 70px; float: right"
+                                   pattern="[1-9][0-9]{1,}">
                         </div>
                         <div class="form-group form-inline" style="width:175px;">
                             <label for="price">
                                 <fmt:message key="office.tariff.price"/> <br/>
                                 <fmt:message key="traffic.price.value"/>
                             </label>
-                            <input type="text" class="form-control" id="price" style="width: 70px; float: right;">
+                            <input type="text" class="form-control" id="price" style="width: 70px; float: right;"
+                                   pattern="[1-9][0-9]{1,}">
                         </div>
                         <div class="add-tariff">
                             <input type="submit" id="addTariff" class="btn btn-default add"  value="<fmt:message key="office.tariff.add"/> ">
