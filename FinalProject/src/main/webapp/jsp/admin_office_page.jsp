@@ -62,26 +62,9 @@
                             <label class="form-control label_box" style="width:350px; height: 54px;">${user.address}</label>
                         </div>
 
-                        <div class="checkbox">
-                            <label>
-                                <input value="" type="checkbox" id="news_h">
-                               <fmt:message key="office.notification"/>
-                            </label>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input value="" type="checkbox" id="news_n">
-                                <fmt:message key="office.news"/>
-                            </label>
-                        </div>
                     </div>
                     <%@ include file="/WEB-INF/jspf/edit_personal_data.jspf"%>
                 </div>
-                <div>
-                    <hr>
-                    <p><fmt:message key="office.info.footer"/> </p>
-                </div>
-
             </div>
             <div class="tab-pane fade" id="tariff-tools">
                 <hr>
@@ -90,7 +73,7 @@
                         <div class="form-group">
                             <input type="hidden" id="id" value="">
                             <label for="name"><fmt:message key="office.tariff.name"/></label>
-                            <input type="text" class="form-control" id="name" placeholder="Email" style="width: 350px">
+                            <input type="text" class="form-control" id="name"  style="width: 350px">
                         </div>
                         <div class="form-group">
                             <label for="description"><fmt:message key="office.tariff.description"/></label>

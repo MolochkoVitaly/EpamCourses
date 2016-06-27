@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/styles.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/lib/bootstrap-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -25,53 +26,26 @@
         <div class="reviewsScroll" id="reviews-area">
             <c:forEach items="${reviews}" var="current">
                 <blockquote class="blockquote-reverse" review-id="${current.id}">
+                    <c:if test="${user.role == \"ADMIN\"}">
+                        <span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </c:if>
                     <p>${current.text}</p>
                     <footer>${current.user.name} ${current.user.surname}</footer>
                     <footer>${current.date}</footer>
                 </blockquote>
             </c:forEach>
         </div>
-        <div class="well">
-            <textarea id="textReview" class="form-control" rows="2" placeholder="Введите Ваше сообщение"></textarea>
-            <c:if test="${user.role == \"CLIENT\"}">
-                <div class="actions" >
-                    <button id="send-review" class="btn btn-default" type="submit"><fmt:message key="review.send"/></button>
-                </div>
-            </c:if>
-        </div>
+        <c:if test="${user.role == \"CLIENT\"}">
+            <div class="well">
+                <textarea id="textReview" class="form-control" rows="2" placeholder="<fmt:message key="review.text-aria.title"/> "></textarea>
+                    <div class="actions" >
+                        <button id="send-review" class="btn btn-default" type="submit"><fmt:message key="review.send"/></button>
+                    </div>
+            </div>
+        </c:if>
     </section>
 </div>
 <%@ include file="/WEB-INF/jspf/footer.jspf" %>
 <%@ include file="/WEB-INF/jspf/scripts.jspf" %>
-<c:if test="${user.role == \"ADMIN\"}">
-    <script>
-        $("#reviews-area").find("blockquote").dblclick(function () {
-            var data = function (id) {
-                return {
-                    command: "deleteReview",
-                    id:id
-                };
-            };
-
-            var id = $(this).attr("review-id");
-
-            $.ajax({
-                type: "POST",
-                url: "ajaxController",
-                data: JSON.stringify(data(id)),
-                dataType: "json",
-                async: false,
-                headers: {"Access-Control-Allow-Origin": "*"},
-                contentType: "application/json; charset=utf-8",
-                success: function (responseText) {
-                    alert("was deleted");
-                },
-                error: function (responseText) {
-                    alert("was not deleted");
-                }
-            });
-        });
-    </script>
-</c:if>
 </body>
 </html>

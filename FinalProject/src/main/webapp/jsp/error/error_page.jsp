@@ -20,7 +20,7 @@
         (Exception) request.getAttribute("errorMessage") : "unknown error"</jsp:expression>
     <hr />
 <a href="controller">
-    <button type="button" class="btn btn-default">Main</button>
+    <button type="button" class="btn btn-default"><fmt:message key="button.main-page"/> </button>
 </a>
 </body>
 </body>

@@ -92,12 +92,12 @@
 						<div class="field">
 							<label for="address"><span><span style="color:red">*</span> <fmt:message key="register.placeholder.address"/></span></label>
 							<input id="address" class="text_input" type="text" autocomplete="off" required name="address"
-								   pattern="((Брестская|Витебская|Гомельская|Гродненская|Минская|Могилевская)\s(область,))(\s)(г.\s)([А-ЯЁ][а-яё]{2,})(,\s)(ул.\s)([А-ЯЁ][А-ЯЁа-яё\s]{2,})(,\s)(дом\s)([0-9]{1,})((,\s)(кв.\s)[0-9]{1,}){0,}"
+								   pattern="[А-ЯЁ][А-Яа-яёЁ0-9\s,.:\/-_]{1,}"
 								   placeholder="<fmt:message key="register.placeholder.address"/>"
 								   data-tooltip="<fmt:message key="register.help.address"/> ">
 						</div>
 
-						<input type="hidden" name="command" value="register" />
+						<input type="hidden" name="command" value="registrate" />
 						<input type="submit" class="btn btn-default" name="registration"
 							   value="<fmt:message key="button.register"/>">
 						<div id="tooltip"></div>

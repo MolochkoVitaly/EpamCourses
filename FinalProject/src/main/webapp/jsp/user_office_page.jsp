@@ -87,38 +87,45 @@
                 </div>
                 <div class="tab-pane fade" id="orders">
                     <div class="form-inline">
-                        <table class="table table-bordered" style="margin-top: 0 !important;">
-                            <tr>
-                                <td><fmt:message key="office.tariff.name"/> </td>
-                                <td colspan="2">${usedTariff.tariff.tariffName}</td>
-                            </tr>
-                            <tr>
-                                <td><fmt:message key="office.tariff.active"/> </td>
-                                <td> <fmt:message key="office.tariff.active.from"/> ${usedTariff.creatingDate}</td>
-                                <td> <fmt:message key="office.tariff.active.to"/>  ${usedTariff.endDate}</td>
-                            </tr>
-                            <tr>
-                                <td><fmt:message key="office.tariff.description"/> </td>
-                                <td colspan="2">${usedTariff.tariff.description}</td>
-                            </tr>
-                            <tr>
-                                <td><fmt:message key="office.tariff.payment"/> </td>
-                                <td colspan="2">${usedTariff.tariff.monthPayment} <fmt:message key="traffic.price.value"/></td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2"><fmt:message key="office.tariff.speed"/> </td>
-                                <td><fmt:message key="office.tariff.download"/> </td>
-                                <td><fmt:message key="office.tariff.upload"/> </td>
-                            </tr>
-                            <tr>
-                                <td>${usedTariff.tariff.downloadSpeed} <fmt:message key="traffic.speed.value"/></td>
-                                <td>${usedTariff.tariff.uploadSpeed} <fmt:message key="traffic.speed.value"/></td>
-                            </tr>
-                            <tr>
-                                <td><fmt:message key="office.tariff.volume"/> </td>
-                                <td colspan="2">${usedTariff.tariff.trafficVolume} <fmt:message key="traffic.volume.value"/></td>
-                            </tr>
-                        </table>
+                        <c:choose>
+                            <c:when test="${not empty usedTariff}">
+                                <table class="table table-bordered" style="margin-top: 0 !important;">
+                                    <tr>
+                                        <td><fmt:message key="office.tariff.name"/> </td>
+                                        <td colspan="2">${usedTariff.tariff.tariffName}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><fmt:message key="office.tariff.active"/> </td>
+                                        <td> <fmt:message key="office.tariff.active.from"/> ${usedTariff.creatingDate}</td>
+                                        <td> <fmt:message key="office.tariff.active.to"/>  ${usedTariff.endDate}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><fmt:message key="office.tariff.description"/> </td>
+                                        <td colspan="2">${usedTariff.tariff.description}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><fmt:message key="office.tariff.payment"/> </td>
+                                        <td colspan="2">${usedTariff.tariff.monthPayment} <fmt:message key="traffic.price.value"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2"><fmt:message key="office.tariff.speed"/> </td>
+                                        <td><fmt:message key="office.tariff.download"/> </td>
+                                        <td><fmt:message key="office.tariff.upload"/> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>${usedTariff.tariff.downloadSpeed} <fmt:message key="traffic.speed.value"/></td>
+                                        <td>${usedTariff.tariff.uploadSpeed} <fmt:message key="traffic.speed.value"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><fmt:message key="office.tariff.volume"/> </td>
+                                        <td colspan="2">${usedTariff.tariff.trafficVolume} <fmt:message key="traffic.volume.value"/></td>
+                                    </tr>
+                                </table>
+                            </c:when>
+                            <c:otherwise>
+                                <h2><fmt:message key="office.used.tariff"/> </h2>
+                            </c:otherwise>
+                        </c:choose>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="payment">

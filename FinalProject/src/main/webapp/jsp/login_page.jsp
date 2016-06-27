@@ -3,6 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib prefix="mt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="ctg" uri="customtags" %>
+<%@ taglib prefix="fmy" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <fmt:setLocale value="${lang}" />
 <fmt:setBundle basename="messages" />
 
@@ -54,7 +55,7 @@
 									<input type="email" name="email" class="form-control"
 										   placeholder="<fmt:message key="reset.placeholder.password.e-mail"/> " style="width:250px;"
 										   pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
-									<input type="submit" class="btn btn-default" value="send" style="margin-top: 5px"/>
+									<input type="submit" class="btn btn-default" value="<fmt:message key="button.send"/> " style="margin-top: 5px"/>
 								</div>
 							</form>
 							<h4><fmt:message key="or"/></h4>
@@ -65,7 +66,7 @@
 									<input type="text" name="phone" class="form-control"
 										   placeholder="<fmt:message key="reset.placeholder.password.phone"/> " value="+375" style="width:250px;"
 										   pattern="((\+375)|(80))(25|29|33|44)[0-9]{7}">
-									<input type="submit" class="btn btn-default" value="send" style="margin-top: 5px"/>
+									<input type="submit" class="btn btn-default" value="<fmt:message key="button.send"/> " style="margin-top: 5px"/>
 								</div>
 							</form>
 						</div>
