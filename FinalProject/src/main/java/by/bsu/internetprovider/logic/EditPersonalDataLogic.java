@@ -35,9 +35,7 @@ public class EditPersonalDataLogic {
 
     /** Field PARAM_ADDRESS_VALIDATION  */
     private static final String PARAM_ADDRESS_VALIDATION =
-            "(РБ,)(\\s)((Брестская|Витебская|Гомельская|Гродненская|Минская|Могилевская)\\s(область,))" +
-            "(\\s)(г.\\s)([А-ЯЁ][а-яё]{2,})(,\\s)(ул.\\s)([А-ЯЁ][А-ЯЁа-яё\\s-]{2,})(,\\s)(дом\\s)([0-9]{1,})" +
-            "((,\\s)(кв.\\s)[0-9]{1,}){0,}";
+            "[А-ЯЁ][А-Яа-яёЁ0-9\\s,.:\\/-_]{1,}";
 
 
     /**
@@ -54,13 +52,17 @@ public class EditPersonalDataLogic {
         if (!isOldData(current, newData)) {
             try {
                 validation(newData, locale);
-
                 if (current.getEmail().equals(newData.getEmail()) || checkEmail(newData.getEmail())) {
-                    UserDAO.getInstance().editPersonalData(newData);
-                    current.setSurname(newData.getSurname());
-                    current.setEmail(newData.getEmail());
-                    current.setPhoneNumber(newData.getPhoneNumber());
-                    current.setAddress(newData.getAddress());
+                    if (current.getPhoneNumber().equals(newData.getPhoneNumber()) || checkPhone(newData.getPhoneNumber())) {
+                        UserDAO.getInstance().editPersonalData(newData);
+                        current.setSurname(newData.getSurname());
+                        current.setEmail(newData.getEmail());
+                        current.setPhoneNumber(newData.getPhoneNumber());
+                        current.setAddress(newData.getAddress());
+                    } else {
+                        throw new LogicException(MessageManager.getManagerByLocale(locale).getProperty(
+                                MessageManager.EDIT_PHONE_IS_USED));
+                    }
                 }
                 else {
                     throw new LogicException(MessageManager.getManagerByLocale(locale).getProperty(
@@ -96,6 +98,20 @@ public class EditPersonalDataLogic {
         ArrayList<String> emailsList = UserDAO.getInstance().findAllEmail();
         return !emailsList.contains(email.trim());
     }
+
+    /**
+     * Method checkPhone ...
+     *
+     * @param phone of type String
+     * @return boolean
+     * @throws DAOException when
+     */
+    private static boolean checkPhone(String phone) throws DAOException {
+        ArrayList<String> phonesList = UserDAO.getInstance().findAllPhones();
+        return !phonesList.contains(phone.trim());
+    }
+
+
 
     /**
      * Method validation ...
