@@ -35,9 +35,10 @@
                     </div>
                     <div class="form-group input-group">
                         <input type="text" name="address" class="form-control"
-                               placeholder="<fmt:message key="register.placeholder.address"/>" style="width:250px;">
+                               placeholder="<fmt:message key="register.placeholder.address"/>" style="width:250px;"
+                               pattern="[А-ЯЁ][А-Яа-яёЁ0-9\s,.:\/-_]{1,}">
                     </div>
-                    <input type="submit" class="btn btn-default" value="send"/>
+                    <input type="submit" class="btn btn-default" value="<fmt:message key="button.send"/> "/>
                 </form>
             </div>
             <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal"><fmt:message key="reset.close"/> </button></div>
@@ -54,28 +55,28 @@
                 <form method="POST" action="controller">
                     <div class="form-group input-group">
                         <input type="hidden" name="command" value="changePassword">
-                        <label for="password">Password</label>
+                        <label for="password"><fmt:message key="title.change.password"/> </label>
                         <div class="input-group" id="password" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
                             <input class="form-control" type="text" name="password" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
-                        <label for="passwordAgain">Password again</label>
+                        <label for="passwordAgain"><fmt:message key="title.change.password.again"/> </label>
                         <div class="input-group" id="passwordAgain" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
                             <input class="form-control" type="text" name="passwordAgain" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
-                        <label for="newPassword">New password</label>
+                        <label for="newPassword"><fmt:message key="title.change.new-password"/> </label>
                         <div class="input-group" id="newPassword" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
                             <input class="form-control"  type="text" name="newPassword" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
-                        <input type="submit" class="btn btn-default" value="send" style="margin-top: 5px"/>
+                        <input type="submit" class="btn btn-default" value="<fmt:message key="button.send"/> " style="margin-top: 5px"/>
                     </div>
                 </form>
             </div>
