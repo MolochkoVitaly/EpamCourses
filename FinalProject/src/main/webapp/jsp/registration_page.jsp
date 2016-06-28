@@ -36,7 +36,8 @@
 							<input id="lastName" class="text_input" type="text" autocomplete="off" required name="lastName"
 								   pattern="^[A-ZА-ЯЁ][a-zа-яё]{4,19}$"
 								   placeholder="<fmt:message key="register.placeholder.surname"/>"
-								   title="<fmt:message key="register.title.surname"/>">
+								   title="<fmt:message key="register.title.surname"/>"
+								   data-tooltip="<fmt:message key="register.help.name"/>">
 						</div>
 
 						<div class="field">
@@ -44,7 +45,8 @@
 							<input id="firstName" class="text_input" type="text" autocomplete="off" required name="firstName"
 								   pattern="^[A-ZА-ЯЁ][a-zа-яё]{2,19}$"
 								   placeholder="<fmt:message key="register.placeholder.name"/>"
-								   title="<fmt:message key="register.title.name"/>">
+								   title="<fmt:message key="register.title.name"/>"
+								   data-tooltip="<fmt:message key="register.help.name"/>">
 						</div>
 
 						<div class="field">
@@ -52,7 +54,8 @@
 							<input id="patronymic" class="text_input" type="text" autocomplete="off" required name="patronymic"
 								   pattern="^[A-ZА-ЯЁ][a-zа-яё]{4,19}$"
 								   placeholder="<fmt:message key="register.placeholder.patronymic"/>"
-								   title="<fmt:message key="register.title.patronymic"/>">
+								   title="<fmt:message key="register.title.patronymic"/>"
+								   data-tooltip="<fmt:message key="register.help.name"/>">
 						</div>
 
 
@@ -61,7 +64,8 @@
 							<input id="password" class="text_input" type="password" autocomplete="off" required name="password"
 								   pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$"
 								   placeholder="<fmt:message key="register.placeholder.password"/>"
-								   title="<fmt:message key="register.title.password"/>">
+								   title="<fmt:message key="register.title.password"/>"
+								   data-tooltip="<fmt:message key="register.help.password"/>">
 						</div>
 
 						<div class="field">
@@ -69,7 +73,8 @@
 							<input id="passwordAgain" class="text_input" type="password" autocomplete="off" required name="passwordAgain"
 								   pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$"
 								   placeholder="<fmt:message key="register.placeholder.password"/>"
-								   title="<fmt:message key="register.title.password.again"/>">
+								   title="<fmt:message key="register.title.password.again"/>"
+								   data-tooltip="<fmt:message key="register.help.password"/> ">
 						</div>
 
 						<div class="field">
