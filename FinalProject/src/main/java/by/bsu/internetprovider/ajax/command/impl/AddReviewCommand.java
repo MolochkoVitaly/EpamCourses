@@ -55,6 +55,8 @@ public class AddReviewCommand implements Command {
         String lang = (String) session.getAttribute(LANG);
         try {
             AddReviewLogic.add(requestData, user);
+            object.put(TEXT, MessageManager.getManagerByLocale(lang).getProperty(MessageManager.SUCCESS_ADD_REVIEW));
+            out.println(object);
             response.setStatus(HttpServletResponse.SC_OK);
         } catch (TechnicalException e) {
             LOG.error("Something has gone wrong.", e);

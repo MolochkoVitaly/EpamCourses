@@ -101,6 +101,10 @@ public enum MessageManager {
     /** Field ERROR_ADD_REVIEW  */
     public static final String ERROR_ADD_REVIEW = "review.add.error";
 
+    /** Field SUCCESS_ADD_REVIEW  */
+    public static final String SUCCESS_ADD_REVIEW = "review.add.success";
+
+
     /** Field ERROR_FIND_TARIFFS  */
     public static final String ERROR_FIND_TARIFFS = "tariffs.find.error";
 

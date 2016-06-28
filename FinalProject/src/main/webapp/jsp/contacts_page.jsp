@@ -32,7 +32,7 @@
             </a>
         </li>
         <li class="grid-3 secondary">
-            <a href="h<fmt:message key="twitter.address"/> ">
+            <a href="<fmt:message key="twitter.address"/> ">
                 <h4 class="secondary"><fmt:message key="twitter"/> </h4>
                 <p>
                     <span class="pseudo-link"><fmt:message key="twitter.follow.us"/> </span>
@@ -44,7 +44,7 @@
             <p class="secondary"><fmt:message key="phone.number"/> </p>
         </li>
         <li class="grid-3 secondary">
-            <a href="m<fmt:message key="e-main.path"/> ">
+            <a href="<fmt:message key="e-main.path"/> ">
                 <h4 class="secondary"><fmt:message key="e-mail"/> </h4>
                 <p>
                     <span class="pseudo-link"><fmt:message key="e-mail.address"/> </span>

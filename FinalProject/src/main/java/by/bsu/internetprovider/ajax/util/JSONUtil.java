@@ -3,6 +3,7 @@ package by.bsu.internetprovider.ajax.util;
 
 import by.bsu.internetprovider.entity.Review;
 import by.bsu.internetprovider.entity.Tariff;
+import by.bsu.internetprovider.exception.TechnicalException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -106,7 +107,7 @@ public class JSONUtil {
      * @return String
      */
     public static String jsonToReviewText(JSONObject json) {
-        return (String)json.get(TEXT);
+        return ((String)json.get(TEXT)).trim();
     }
 
     /**
@@ -116,7 +117,7 @@ public class JSONUtil {
      * @return String
      */
     public static String jsonToSum(JSONObject json) {
-        return (String) json.get(SUM);
+        return ((String) json.get(SUM)).trim();
     }
 
     /**
@@ -125,19 +126,24 @@ public class JSONUtil {
      * @param json of type JSONObject
      * @return Tariff
      */
-    public static Tariff jsonToTariff(JSONObject json) {
+    public static Tariff jsonToTariff(JSONObject json) throws TechnicalException {
         Tariff tariff = new Tariff();
         String current;
-        tariff.setTariffName((String) json.get(TARIFF_NAME));
-        tariff.setDescription((String) json.get(TARIFF_DESCRIPTION));
-        current = !Objects.equals((String) json.get(UPLOAD_SPEED), "") ? (String) json.get(UPLOAD_SPEED) : DEFAULT_LONG_VALUE;
-        tariff.setUploadSpeed(Long.parseLong(current));
-        current = !Objects.equals((String) json.get(DOWNLOAD_SPEED), "") ? (String) json.get(DOWNLOAD_SPEED) : DEFAULT_LONG_VALUE;
-        tariff.setDownloadSpeed(Long.parseLong((current)));
-        current = !Objects.equals((String) json.get(TARIFF_PRICE), "") ? (String) json.get(TARIFF_PRICE) : DEFAULT_LONG_VALUE;
-        tariff.setMonthPayment(Long.parseLong(current));
-        current = !Objects.equals((String) json.get(TARIFF_VOLUME), "") ? (String) json.get(TARIFF_VOLUME) : DEFAULT_LONG_VALUE;
-        tariff.setTrafficVolume(Long.parseLong(current));
+        try {
+            tariff.setTariffName((String) json.get(TARIFF_NAME));
+            tariff.setDescription((String) json.get(TARIFF_DESCRIPTION));
+            current = !Objects.equals((String) json.get(UPLOAD_SPEED), "") ? (String) json.get(UPLOAD_SPEED) : DEFAULT_LONG_VALUE;
+            tariff.setUploadSpeed(Long.parseLong(current.trim()));
+            current = !Objects.equals((String) json.get(DOWNLOAD_SPEED), "") ? (String) json.get(DOWNLOAD_SPEED) : DEFAULT_LONG_VALUE;
+            tariff.setDownloadSpeed(Long.parseLong((current.trim())));
+            current = !Objects.equals((String) json.get(TARIFF_PRICE), "") ? (String) json.get(TARIFF_PRICE) : DEFAULT_LONG_VALUE;
+            tariff.setMonthPayment(Long.parseLong(current.trim()));
+            current = !Objects.equals((String) json.get(TARIFF_VOLUME), "") ? (String) json.get(TARIFF_VOLUME) : DEFAULT_LONG_VALUE;
+            tariff.setTrafficVolume(Long.parseLong(current.trim()));
+        } catch (NumberFormatException e) {
+            throw new TechnicalException(e);
+        }
         return tariff;
     }
+
 }

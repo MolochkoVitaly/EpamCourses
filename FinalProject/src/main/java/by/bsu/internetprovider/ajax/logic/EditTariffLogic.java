@@ -84,4 +84,5 @@ public class EditTariffLogic {
             throw new LogicException(MessageManager.getManagerByLocale(locale).getProperty(errorMessage));
         }
     }
+
 }
