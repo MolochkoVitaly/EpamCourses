@@ -431,39 +431,39 @@ $(document).ready(function() {
         });
     });
 
+    function blockquoteType(id, text, userName, userSurname, date, _role) {
+        return _role == "ADMIN" ?
+        '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
+        '<span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>' +
+        '<p>' + text + '</p>'+
+        '<footer>' + userName + ' ' + userSurname + '</footer>' +
+        '<footer>' + date + '</footer>' +
+        '</blockquote>'
+            :
+        '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
+        '<p>' + text + '</p>'+
+        '<footer>' + userName + ' ' + userSurname + '</footer>' +
+        '<footer>' + date + '</footer>' +
+        '</blockquote>';
+    }
+
+    function addReview(review, _role) {
+        $("#reviews-area").append(blockquoteType(review.id, review.text, review.userName, review.userSurname, review.date, _role));
+    }
+
+    function createReview(allReviews, _role) {
+        for (var i = 0; i < allReviews.length; i++) {
+            var review = allReviews[i];
+            addReview(review, _role);
+        }
+    }
+
     function updateReviews(role) {
         var data = function () {
             return {
                 command: "updateReviews"
             };
         };
-
-        var blockquoteType = function (id, text, userName, userSurname, date, paramRole) {
-            return paramRole == "ADMIN" ?
-            '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
-            '<span class="delete-review" style="float: left"><i class="fa fa-times" aria-hidden="true"></i></span>' +
-            '<p>' + text + '</p>'+
-            '<footer>' + userName + ' ' + userSurname + '</footer>' +
-            '<footer>' + date + '</footer>' +
-            '</blockquote>'
-                :
-            '<blockquote class="blockquote-reverse" review-id="' + id + '">' +
-            '<p>' + text + '</p>'+
-            '<footer>' + userName + ' ' + userSurname + '</footer>' +
-            '<footer>' + date + '</footer>' +
-            '</blockquote>';
-        };
-
-        function create(allReviews) {
-            for (var i = 0; i < allReviews.length; i++) {
-                var review = allReviews[i];
-                addReview(review);
-            }
-        }
-
-        function addReview(review) {
-            $("#reviews-area").append(blockquoteType(review.id, review.text, review.userName, review.userSurname, review.date, role));
-        }
 
         $.ajax({
             type: "POST",
@@ -476,7 +476,7 @@ $(document).ready(function() {
             success: function (responseText) {
                 debugger;
                 $("#reviews-area").children().remove();
-                create(responseText.reviews);
+                createReview(responseText.reviews, role);
             },
             error: function (responseText) {
                 $(".container .reviewsScroll").before(alertError(JSON.parse(responseText.responseText).text)).show();
@@ -509,7 +509,7 @@ $(document).ready(function() {
                 updateReviews("ADMIN");
             },
             error: function (responseText) {
-                alert("was not deleted");
+                ("#reviews-area").find(".reviewsScroll").before(alertError(JSON.parse(responseText.responseText).text)).show();
             }
         });
     });
