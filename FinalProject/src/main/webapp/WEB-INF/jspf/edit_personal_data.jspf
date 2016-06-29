@@ -58,21 +58,21 @@
                         <label for="password"><fmt:message key="title.change.password"/> </label>
                         <div class="input-group" id="password" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                            <input class="form-control" type="text" name="password" style="width:207px;"
+                            <input class="form-control" type="password" name="password" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
                         <label for="passwordAgain"><fmt:message key="title.change.password.again"/> </label>
                         <div class="input-group" id="passwordAgain" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                            <input class="form-control" type="text" name="passwordAgain" style="width:207px;"
+                            <input class="form-control" type="password" name="passwordAgain" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
                         <label for="newPassword"><fmt:message key="title.change.new-password"/> </label>
                         <div class="input-group" id="newPassword" style="margin-bottom: 20px;">
                             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                            <input class="form-control"  type="text" name="newPassword" style="width:207px;"
+                            <input class="form-control"  type="password" name="newPassword" style="width:207px;"
                                    placeholder="<fmt:message key="register.placeholder.password"/>"
                                    pattern="^[а-яА-ЯёЁa-zA-Z][а-яА-ЯёЁa-zA-Z0-9-_\.]{4,19}$">
                         </div>
