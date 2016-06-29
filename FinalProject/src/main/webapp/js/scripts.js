@@ -84,7 +84,6 @@ $(document).ready(function() {
             headers: {"Access-Control-Allow-Origin": "*"},
             contentType: "application/json; charset=utf-8",
             success: function (responseText) {
-                debugger;
                 $(".container table").before(alertSuccess(responseText.text)).show();
                 $("#subscribeModal").find("input[name=id]").val("");
                 setTimeout(function () {
