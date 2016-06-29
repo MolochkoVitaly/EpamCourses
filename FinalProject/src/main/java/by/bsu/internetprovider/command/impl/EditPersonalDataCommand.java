@@ -2,10 +2,8 @@ package by.bsu.internetprovider.command.impl;
 
 
 import by.bsu.internetprovider.command.Command;
-import by.bsu.internetprovider.dao.impl.UserDAO;
 import by.bsu.internetprovider.entity.Role;
 import by.bsu.internetprovider.entity.User;
-import by.bsu.internetprovider.exception.DAOException;
 import by.bsu.internetprovider.exception.LogicException;
 import by.bsu.internetprovider.exception.TechnicalException;
 import by.bsu.internetprovider.logic.EditPersonalDataLogic;
@@ -15,7 +13,6 @@ import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 
 /**
  * Class EditPersonalDataCommand ...
