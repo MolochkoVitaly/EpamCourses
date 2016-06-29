@@ -98,8 +98,7 @@
 							<label for="address"><span><span style="color:red">*</span> <fmt:message key="register.placeholder.address"/></span></label>
 							<input id="address" class="text_input" type="text" autocomplete="off" required name="address"
 								   pattern="[А-ЯЁ][А-Яа-яёЁ0-9\s,.:\/-_]{1,}"
-								   placeholder="<fmt:message key="register.placeholder.address"/>"
-								   data-tooltip="<fmt:message key="register.help.address"/> ">
+								   placeholder="<fmt:message key="register.placeholder.address"/>">
 						</div>
 
 						<input type="hidden" name="command" value="registrate" />
